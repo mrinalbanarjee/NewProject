@@ -1,0 +1,21 @@
+[project]
+name = "compare-triage-agent"
+version = "0.1.0"
+description = "Agentic assistant for diagnosing Hogan/Alfa customer-sync mismatches: lists compare-result mismatches and, for ACCOUNT_COMPARE, roots the failure in the Hogan account boarding status plus its dependent downstream failures."
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai>=1.0",
+    "pydantic>=2.7",
+    "python-dotenv>=1.0",
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.2",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

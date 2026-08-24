@@ -1,0 +1,564 @@
+{
+    "accounts": [
+        {
+            "accountNumber": "5702202126",
+            "loanBoardingText": "404   ******f60d   ******19e3   a1c4357a-c7b8-4d5c-8a66-9f5ef28f2c31   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-03T13:26:04.092Z"
+        },
+        {
+            "accountNumber": "2296617139",
+            "loanBoardingText": "409   ******6d13   ******af96   973c39cf-c609-4948-94b1-f3ad247d2de0   0XCA007E   DUPLICATE BOARDING REQUEST RECEIVED FOR SAME ACCOUNT AND ECN   64190  DUP REQ REJECTED",
+            "messageReturnCode": "0X00007E",
+            "eventTime": "2026-08-08T01:35:54.296Z"
+        },
+        {
+            "accountNumber": "6526144982",
+            "loanBoardingText": "404   ******214d   ******29a5   a89f1299-831e-42d2-a02e-7f017382540b   0XCA042E   CUSTOMER ECN NOT FOUND OR INACTIVE ON HOGAN   51032  ECN INACTIVE OR PURGED",
+            "messageReturnCode": "0X00042E",
+            "eventTime": "2026-08-18T22:04:36.633Z"
+        },
+        {
+            "accountNumber": "4512352206",
+            "loanBoardingText": "200   ******78c7   ******e532   5bf5e3e9-67d8-446d-b891-c586e1415d09   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-08T02:36:19.506Z"
+        },
+        {
+            "accountNumber": "8026219547",
+            "loanBoardingText": "404   ******b4f1   ******6c27   bacc40e4-7f97-4429-b344-cb594865714e   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-02T21:04:48.586Z"
+        },
+        {
+            "accountNumber": "6412070304",
+            "loanBoardingText": "404   ******557c   ******114b   5167ed9a-bef7-427d-8f4a-46f913a30c4a   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-03T01:46:44.662Z"
+        },
+        {
+            "accountNumber": "0580084955",
+            "loanBoardingText": "409   ******fd46   ******a072   44792fe1-4f9d-4693-b0e8-0e02f144d09e   0XCA007E   DUPLICATE BOARDING REQUEST RECEIVED FOR SAME ACCOUNT AND ECN   64190  DUP REQ REJECTED",
+            "messageReturnCode": "0X00007E",
+            "eventTime": "2026-08-04T15:03:13.294Z"
+        },
+        {
+            "accountNumber": "9906505513",
+            "loanBoardingText": "200   ******b6e7   ******2642   b3413c3c-75fa-41da-a968-028ec8187690   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-14T17:17:45.367Z"
+        },
+        {
+            "accountNumber": "6358979217",
+            "loanBoardingText": "200   ******ef22   ******3379   5acc6e09-a67a-45de-b85c-16452b2ca9bc   0XCA021E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, REL. CODE MATCHES   64188  ACCT REL CONFIRMED ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-09T09:00:09.547Z"
+        },
+        {
+            "accountNumber": "3527095776",
+            "loanBoardingText": "404   ******952d   ******fab7   b67a82a5-0e3b-4fc0-9e6a-98262b3a5f22   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-22T17:25:25.403Z"
+        },
+        {
+            "accountNumber": "6748573316",
+            "loanBoardingText": "403   ******763f   ******7191   4b158c55-f14a-4850-9799-a9365c71ffe5   0XCA020E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, BUT THE REL. CODE IS DIFFERENT   64189  ACCT REL ALREADY PRES ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-19T04:34:06.372Z"
+        },
+        {
+            "accountNumber": "8728645911",
+            "loanBoardingText": "409   ******0d92   ******4551   77e672c9-39ac-4a35-befc-feae67764937   0XCA007E   DUPLICATE BOARDING REQUEST RECEIVED FOR SAME ACCOUNT AND ECN   64190  DUP REQ REJECTED",
+            "messageReturnCode": "0X00007E",
+            "eventTime": "2026-08-16T14:30:30.087Z"
+        },
+        {
+            "accountNumber": "7894756224",
+            "loanBoardingText": "200   ******154d   ******20f8   8a7af4e1-cd58-4886-b4b6-55bb05dcfc45   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-05T22:34:58.776Z"
+        },
+        {
+            "accountNumber": "6140323737",
+            "loanBoardingText": "409   ******4a1d   ******8e53   be5b2a7c-76fb-420b-9617-8dd552322256   0XCA007E   DUPLICATE BOARDING REQUEST RECEIVED FOR SAME ACCOUNT AND ECN   64190  DUP REQ REJECTED",
+            "messageReturnCode": "0X00007E",
+            "eventTime": "2026-08-18T16:21:40.627Z"
+        },
+        {
+            "accountNumber": "8750560604",
+            "loanBoardingText": "200   ******cdb3   ******8500   39a2efb2-3d27-405f-94fb-985d145d0f76   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-09T15:16:12.619Z"
+        },
+        {
+            "accountNumber": "3841156697",
+            "loanBoardingText": "404   ******7eff   ******5333   b393acb6-5842-41d3-bfa3-2834952822b5   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-07T15:39:57.860Z"
+        },
+        {
+            "accountNumber": "5329247563",
+            "loanBoardingText": "403   ******7ac1   ******aecc   8a214466-c343-4ef1-8a4b-c68622dc2169   0XCA020E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, BUT THE REL. CODE IS DIFFERENT   64189  ACCT REL ALREADY PRES ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-16T05:27:50.340Z"
+        },
+        {
+            "accountNumber": "7952112105",
+            "loanBoardingText": "403   ******cf66   ******fb22   bd0ec321-dfef-40da-9c7e-99b85d068ad7   0XCA020E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, BUT THE REL. CODE IS DIFFERENT   64189  ACCT REL ALREADY PRES ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-05T18:57:29.671Z"
+        },
+        {
+            "accountNumber": "5618485441",
+            "loanBoardingText": "200   ******997e   ******280c   c33e393f-cfe1-42fb-ae80-fb28459efd07   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-24T20:06:33.956Z"
+        },
+        {
+            "accountNumber": "8013752166",
+            "loanBoardingText": "200   ******6dd3   ******4439   4a427e1b-0cfd-4c54-89a2-6ade98da763f   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-09T17:26:53.062Z"
+        },
+        {
+            "accountNumber": "4004320985",
+            "loanBoardingText": "200   ******579e   ******6e88   6bc2e91d-290f-4c67-b316-5494822cd5e3   0XCA021E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, REL. CODE MATCHES   64188  ACCT REL CONFIRMED ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-17T16:01:55.795Z"
+        },
+        {
+            "accountNumber": "2128406773",
+            "loanBoardingText": "200   ******9c22   ******910a   6273dc69-f1ab-4c56-87af-348608d5e70b   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-17T17:30:50.108Z"
+        },
+        {
+            "accountNumber": "4055884547",
+            "loanBoardingText": "409   ******0301   ******70e1   58f64015-9223-49ec-b515-cf549844393c   0XCA007E   DUPLICATE BOARDING REQUEST RECEIVED FOR SAME ACCOUNT AND ECN   64190  DUP REQ REJECTED",
+            "messageReturnCode": "0X00007E",
+            "eventTime": "2026-08-11T19:32:38.204Z"
+        },
+        {
+            "accountNumber": "4526468425",
+            "loanBoardingText": "200   ******48c8   ******38ee   6169da97-4199-4ce3-b9a7-6e51376b51ff   0XCA021E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, REL. CODE MATCHES   64188  ACCT REL CONFIRMED ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-18T06:53:28.426Z"
+        },
+        {
+            "accountNumber": "9828487319",
+            "loanBoardingText": "403   ******65a6   ******341c   84fc3ac8-5fb7-43d6-8423-c4e7cd23d7d6   0XCA020E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, BUT THE REL. CODE IS DIFFERENT   64189  ACCT REL ALREADY PRES ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-23T20:42:23.259Z"
+        },
+        {
+            "accountNumber": "8799837054",
+            "loanBoardingText": "200   ******f3f6   ******7fd2   70008e0f-03e9-45d3-9cf2-42cda9b3d73f   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-14T16:25:21.200Z"
+        },
+        {
+            "accountNumber": "5891208592",
+            "loanBoardingText": "404   ******5b08   ******7059   64dda321-10d1-424d-9f28-4c6b24a5d99e   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-17T02:07:58.234Z"
+        },
+        {
+            "accountNumber": "7529957181",
+            "loanBoardingText": "403   ******14e2   ******cdda   15a89b03-c034-4647-817b-5639c2d221be   0XCA020E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, BUT THE REL. CODE IS DIFFERENT   64189  ACCT REL ALREADY PRES ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-09T12:09:34.527Z"
+        },
+        {
+            "accountNumber": "7242344046",
+            "loanBoardingText": "409   ******754c   ******2e40   c40ffdf1-e894-4f01-8c73-4c05533e4844   0XCA007E   DUPLICATE BOARDING REQUEST RECEIVED FOR SAME ACCOUNT AND ECN   64190  DUP REQ REJECTED",
+            "messageReturnCode": "0X00007E",
+            "eventTime": "2026-08-03T08:05:38.227Z"
+        },
+        {
+            "accountNumber": "9080078555",
+            "loanBoardingText": "403   ******410f   ******6e90   7a6a3212-6c37-4656-a97a-823a2509263a   0XCA020E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, BUT THE REL. CODE IS DIFFERENT   64189  ACCT REL ALREADY PRES ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-23T07:07:10.051Z"
+        },
+        {
+            "accountNumber": "3678796352",
+            "loanBoardingText": "200   ******344c   ******4825   8fbb323f-f454-48fe-8b70-fb38122095c4   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-01T08:02:00.750Z"
+        },
+        {
+            "accountNumber": "4427142646",
+            "loanBoardingText": "409   ******837e   ******1d67   8c57b96c-192d-49c3-89e1-8306fd986331   0XCA007E   DUPLICATE BOARDING REQUEST RECEIVED FOR SAME ACCOUNT AND ECN   64190  DUP REQ REJECTED",
+            "messageReturnCode": "0X00007E",
+            "eventTime": "2026-08-13T16:19:44.235Z"
+        },
+        {
+            "accountNumber": "3758808009",
+            "loanBoardingText": "404   ******3eb2   ******ffd0   f819036e-ab29-47b4-a760-ce8c9a9e3992   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-21T23:56:16.167Z"
+        },
+        {
+            "accountNumber": "6869393446",
+            "loanBoardingText": "403   ******1dda   ******4347   60727962-b483-42d2-9817-030bd236aad2   0XCA020E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, BUT THE REL. CODE IS DIFFERENT   64189  ACCT REL ALREADY PRES ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-06T08:28:00.372Z"
+        },
+        {
+            "accountNumber": "3040326905",
+            "loanBoardingText": "404   ******f83f   ******4506   98b41cee-e2e3-4b3f-8d43-2febaaa87e55   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-16T08:32:41.254Z"
+        },
+        {
+            "accountNumber": "1705631799",
+            "loanBoardingText": "409   ******c1d2   ******964a   bcce13db-086c-452c-b567-358023b72642   0XCA007E   DUPLICATE BOARDING REQUEST RECEIVED FOR SAME ACCOUNT AND ECN   64190  DUP REQ REJECTED",
+            "messageReturnCode": "0X00007E",
+            "eventTime": "2026-08-03T18:33:54.158Z"
+        },
+        {
+            "accountNumber": "5039371912",
+            "loanBoardingText": "200   ******ec9c   ******b749   998a1951-4a91-47fd-95b7-2b34235e1be7   0XCA021E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, REL. CODE MATCHES   64188  ACCT REL CONFIRMED ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-05T01:52:53.913Z"
+        },
+        {
+            "accountNumber": "6851882729",
+            "loanBoardingText": "409   ******abc2   ******88dc   9f31a117-c32e-444b-913b-6b902ef3a827   0XCA007E   DUPLICATE BOARDING REQUEST RECEIVED FOR SAME ACCOUNT AND ECN   64190  DUP REQ REJECTED",
+            "messageReturnCode": "0X00007E",
+            "eventTime": "2026-08-22T18:51:57.699Z"
+        },
+        {
+            "accountNumber": "4624609055",
+            "loanBoardingText": "200   ******a10a   ******f670   e0324f07-8a70-4aea-8ef2-2eb002dffcf1   0XCA021E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, REL. CODE MATCHES   64188  ACCT REL CONFIRMED ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-01T20:34:43.501Z"
+        },
+        {
+            "accountNumber": "3469207376",
+            "loanBoardingText": "404   ******0cb8   ******8a1b   dc63069d-cb2b-4df3-8365-47a609f4caee   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-09T02:54:16.746Z"
+        },
+        {
+            "accountNumber": "2044912132",
+            "loanBoardingText": "200   ******3a7d   ******1e40   9b704134-04de-43ba-8e05-48a2fda658f9   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-21T20:12:04.150Z"
+        },
+        {
+            "accountNumber": "1447964670",
+            "loanBoardingText": "404   ******4b49   ******004a   21ec9283-6939-4396-84af-c65db7a5f646   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-23T06:43:31.725Z"
+        },
+        {
+            "accountNumber": "5710864126",
+            "loanBoardingText": "409   ******47cf   ******8417   9d04961f-def3-4eda-b631-36e03ce30fc8   0XCA007E   DUPLICATE BOARDING REQUEST RECEIVED FOR SAME ACCOUNT AND ECN   64190  DUP REQ REJECTED",
+            "messageReturnCode": "0X00007E",
+            "eventTime": "2026-08-10T14:04:52.991Z"
+        },
+        {
+            "accountNumber": "5121705385",
+            "loanBoardingText": "404   ******f6ee   ******11b4   5ae3bc8e-ddd3-483f-aa3f-fe4144c4cab2   0XCA042E   CUSTOMER ECN NOT FOUND OR INACTIVE ON HOGAN   51032  ECN INACTIVE OR PURGED",
+            "messageReturnCode": "0X00042E",
+            "eventTime": "2026-08-12T04:38:52.520Z"
+        },
+        {
+            "accountNumber": "9757809646",
+            "loanBoardingText": "404   ******eb3e   ******7007   39c2ce7a-048b-444a-8623-0e473b3d0ba7   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-15T12:19:46.426Z"
+        },
+        {
+            "accountNumber": "4646294862",
+            "loanBoardingText": "404   ******6155   ******56f3   c446b754-af3c-46ee-9b2a-0d2d180f5b3c   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-01T23:18:16.066Z"
+        },
+        {
+            "accountNumber": "5121410984",
+            "loanBoardingText": "404   ******6d1e   ******cd40   09363faa-8e19-4af2-82f5-984ad51c62d2   0XCA042E   CUSTOMER ECN NOT FOUND OR INACTIVE ON HOGAN   51032  ECN INACTIVE OR PURGED",
+            "messageReturnCode": "0X00042E",
+            "eventTime": "2026-08-22T09:40:59.255Z"
+        },
+        {
+            "accountNumber": "8971194840",
+            "loanBoardingText": "404   ******65cc   ******60c6   c9ed9511-6119-4aef-9174-ecab890fbe46   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-18T17:13:46.050Z"
+        },
+        {
+            "accountNumber": "4653619723",
+            "loanBoardingText": "200   ******692d   ******7e82   e1ed66f8-8b0c-40de-a48a-3d51ed511da0   0XCA021E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, REL. CODE MATCHES   64188  ACCT REL CONFIRMED ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-14T10:18:19.756Z"
+        },
+        {
+            "accountNumber": "7283695776",
+            "loanBoardingText": "200   ******f4a4   ******8622   34c4f541-11e0-4bcd-9605-f2f814c9a975   0XCA021E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, REL. CODE MATCHES   64188  ACCT REL CONFIRMED ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-07T16:57:51.563Z"
+        },
+        {
+            "accountNumber": "8257144425",
+            "loanBoardingText": "200   ******75c6   ******8328   1b7d211d-ba29-44bb-95ce-09f5b064e3d0   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-11T07:23:16.583Z"
+        },
+        {
+            "accountNumber": "2273424259",
+            "loanBoardingText": "200   ******eb66   ******8650   d9050509-cba7-4a7d-a82d-c4e815e22176   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-09T18:23:08.515Z"
+        },
+        {
+            "accountNumber": "8051929549",
+            "loanBoardingText": "409   ******ad34   ******367f   5c8b8509-1bac-4a46-91b1-4ff91ad28f95   0XCA007E   DUPLICATE BOARDING REQUEST RECEIVED FOR SAME ACCOUNT AND ECN   64190  DUP REQ REJECTED",
+            "messageReturnCode": "0X00007E",
+            "eventTime": "2026-08-01T04:02:27.782Z"
+        },
+        {
+            "accountNumber": "1114217757",
+            "loanBoardingText": "404   ******f71e   ******e877   9a8b16a5-e820-4991-8db5-c51de0fa1e9a   0XCA042E   CUSTOMER ECN NOT FOUND OR INACTIVE ON HOGAN   51032  ECN INACTIVE OR PURGED",
+            "messageReturnCode": "0X00042E",
+            "eventTime": "2026-08-04T07:09:09.995Z"
+        },
+        {
+            "accountNumber": "7657553918",
+            "loanBoardingText": "200   ******1dbd   ******e1c0   80c248aa-eb25-4812-b32f-27f3b47f92c2   0XCA021E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, REL. CODE MATCHES   64188  ACCT REL CONFIRMED ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-05T07:36:58.660Z"
+        },
+        {
+            "accountNumber": "0981819319",
+            "loanBoardingText": "200   ******424a   ******b118   554088c6-ab3d-40df-b16b-f1d42f06cc1f   0XCA021E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, REL. CODE MATCHES   64188  ACCT REL CONFIRMED ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-19T06:24:16.809Z"
+        },
+        {
+            "accountNumber": "9474324118",
+            "loanBoardingText": "409   ******08f4   ******5d38   de0b1339-012e-4c12-b54f-9919bfdf8ca1   0XCA007E   DUPLICATE BOARDING REQUEST RECEIVED FOR SAME ACCOUNT AND ECN   64190  DUP REQ REJECTED",
+            "messageReturnCode": "0X00007E",
+            "eventTime": "2026-08-18T07:01:26.665Z"
+        },
+        {
+            "accountNumber": "7341374837",
+            "loanBoardingText": "404   ******03ea   ******1365   feaca4c0-358d-4afe-ba16-81b50b1402ad   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-16T01:44:21.430Z"
+        },
+        {
+            "accountNumber": "5951226980",
+            "loanBoardingText": "404   ******a3cb   ******83f4   86ecc0df-5e7f-4d80-aa32-729d86b7655b   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-07T07:29:14.778Z"
+        },
+        {
+            "accountNumber": "7055721252",
+            "loanBoardingText": "404   ******199e   ******7e09   8f04e387-7ba8-4583-8b47-cee27da01507   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-13T01:13:01.610Z"
+        },
+        {
+            "accountNumber": "1011582334",
+            "loanBoardingText": "200   ******6b27   ******b511   6c72553d-1b9d-4f5b-a89b-b9a13c2398c3   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-06T10:12:11.958Z"
+        },
+        {
+            "accountNumber": "2838371975",
+            "loanBoardingText": "409   ******b0a6   ******5520   cdaac5ff-18a6-4a65-9539-70816c312e16   0XCA007E   DUPLICATE BOARDING REQUEST RECEIVED FOR SAME ACCOUNT AND ECN   64190  DUP REQ REJECTED",
+            "messageReturnCode": "0X00007E",
+            "eventTime": "2026-08-09T02:22:26.906Z"
+        },
+        {
+            "accountNumber": "8379370294",
+            "loanBoardingText": "403   ******8c6c   ******4c1b   bf7d0c67-5302-4fe9-9d1e-5018b287262e   0XCA020E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, BUT THE REL. CODE IS DIFFERENT   64189  ACCT REL ALREADY PRES ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-07T11:34:58.197Z"
+        },
+        {
+            "accountNumber": "4660677017",
+            "loanBoardingText": "404   ******5e06   ******cc00   e5a7dcc7-752a-4323-af65-875a0c44e726   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-03T01:16:12.064Z"
+        },
+        {
+            "accountNumber": "1393683388",
+            "loanBoardingText": "409   ******54f9   ******4b54   582480af-222e-4480-a98a-6a8b2f672665   0XCA007E   DUPLICATE BOARDING REQUEST RECEIVED FOR SAME ACCOUNT AND ECN   64190  DUP REQ REJECTED",
+            "messageReturnCode": "0X00007E",
+            "eventTime": "2026-08-01T23:48:38.824Z"
+        },
+        {
+            "accountNumber": "3923992645",
+            "loanBoardingText": "200   ******f1d1   ******b7cc   0dac473b-5b1c-4994-80ae-15075edfab5a   0XCA021E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, REL. CODE MATCHES   64188  ACCT REL CONFIRMED ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-14T15:08:59.187Z"
+        },
+        {
+            "accountNumber": "0963794025",
+            "loanBoardingText": "403   ******cbdc   ******9555   d9565a9e-6a4f-4deb-9ad9-42aa089c53ef   0XCA020E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, BUT THE REL. CODE IS DIFFERENT   64189  ACCT REL ALREADY PRES ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-20T02:32:12.770Z"
+        },
+        {
+            "accountNumber": "5437553014",
+            "loanBoardingText": "200   ******3108   ******5fef   96465344-eec5-483a-a056-199d1c5d77fd   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-09T19:05:13.431Z"
+        },
+        {
+            "accountNumber": "9134244463",
+            "loanBoardingText": "404   ******ff22   ******7e38   793c5599-3287-481a-8db6-3d7ad89f1f3f   0XCA042E   CUSTOMER ECN NOT FOUND OR INACTIVE ON HOGAN   51032  ECN INACTIVE OR PURGED",
+            "messageReturnCode": "0X00042E",
+            "eventTime": "2026-08-22T03:49:53.300Z"
+        },
+        {
+            "accountNumber": "3416895632",
+            "loanBoardingText": "404   ******95b3   ******332e   812a07eb-02d2-42a3-a244-58fcb895b47c   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-19T06:20:04.257Z"
+        },
+        {
+            "accountNumber": "1355445991",
+            "loanBoardingText": "200   ******83ca   ******f17d   372e551d-0164-4685-9a5f-46a917950627   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-15T11:02:56.238Z"
+        },
+        {
+            "accountNumber": "2943849728",
+            "loanBoardingText": "403   ******09d3   ******1829   238c88c2-2110-432f-a195-d16ad7915c5c   0XCA020E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, BUT THE REL. CODE IS DIFFERENT   64189  ACCT REL ALREADY PRES ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-22T00:06:40.726Z"
+        },
+        {
+            "accountNumber": "4458809668",
+            "loanBoardingText": "409   ******5050   ******f0be   b54bda02-59d0-48a7-ae8c-02ef340b2232   0XCA007E   DUPLICATE BOARDING REQUEST RECEIVED FOR SAME ACCOUNT AND ECN   64190  DUP REQ REJECTED",
+            "messageReturnCode": "0X00007E",
+            "eventTime": "2026-08-01T10:26:43.189Z"
+        },
+        {
+            "accountNumber": "9843251878",
+            "loanBoardingText": "409   ******43c8   ******1168   82c5d529-28c6-49ee-a7e4-076e11b3dfa7   0XCA007E   DUPLICATE BOARDING REQUEST RECEIVED FOR SAME ACCOUNT AND ECN   64190  DUP REQ REJECTED",
+            "messageReturnCode": "0X00007E",
+            "eventTime": "2026-08-21T17:05:41.407Z"
+        },
+        {
+            "accountNumber": "3886605613",
+            "loanBoardingText": "200   ******4fa6   ******0be6   f963bae4-4e01-4fbe-ab9e-bc1f6eda1436   0XCA021E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, REL. CODE MATCHES   64188  ACCT REL CONFIRMED ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-01T11:41:12.745Z"
+        },
+        {
+            "accountNumber": "7970020075",
+            "loanBoardingText": "404   ******30e6   ******d6e7   bd2189e0-3e17-4808-84c5-c993f4e32893   0XCA042E   CUSTOMER ECN NOT FOUND OR INACTIVE ON HOGAN   51032  ECN INACTIVE OR PURGED",
+            "messageReturnCode": "0X00042E",
+            "eventTime": "2026-08-06T04:00:03.145Z"
+        },
+        {
+            "accountNumber": "7082075043",
+            "loanBoardingText": "200   ******c69e   ******b252   b81303e2-9436-4d7d-ad2a-b8ba010d72d0   0XCA021E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, REL. CODE MATCHES   64188  ACCT REL CONFIRMED ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-06T02:06:24.771Z"
+        },
+        {
+            "accountNumber": "2399775719",
+            "loanBoardingText": "200   ******4d0e   ******59a1   ab95bd95-ac53-4fc0-a475-47a0fa76a98e   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-23T19:44:52.164Z"
+        },
+        {
+            "accountNumber": "4097098573",
+            "loanBoardingText": "200   ******c36d   ******d236   df74835c-64d6-41cc-aeba-17a3eb803b73   0XCA021E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, REL. CODE MATCHES   64188  ACCT REL CONFIRMED ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-17T05:24:22.153Z"
+        },
+        {
+            "accountNumber": "6350612893",
+            "loanBoardingText": "200   ******fd3e   ******daa5   378a18ee-52b9-411f-81da-48826457107c   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-13T19:29:35.642Z"
+        },
+        {
+            "accountNumber": "1469059091",
+            "loanBoardingText": "404   ******a436   ******5820   e77676f2-6ac1-4642-b5ff-6ef3ba41679b   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-16T14:15:28.633Z"
+        },
+        {
+            "accountNumber": "2050828435",
+            "loanBoardingText": "404   ******dc61   ******55c8   bafd995b-e88d-47c9-a972-da762108a679   0XCA042E   CUSTOMER ECN NOT FOUND OR INACTIVE ON HOGAN   51032  ECN INACTIVE OR PURGED",
+            "messageReturnCode": "0X00042E",
+            "eventTime": "2026-08-22T01:02:40.084Z"
+        },
+        {
+            "accountNumber": "2257779593",
+            "loanBoardingText": "200   ******5b1c   ******eac0   3e412e86-8c2d-4bd1-9734-c5b3e9780959   0XCA021E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, REL. CODE MATCHES   64188  ACCT REL CONFIRMED ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-03T19:46:44.112Z"
+        },
+        {
+            "accountNumber": "5339746437",
+            "loanBoardingText": "200   ******2e4c   ******cab3   3181d249-624e-4e95-97fa-f37340255a65   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-12T19:48:16.331Z"
+        },
+        {
+            "accountNumber": "6368372107",
+            "loanBoardingText": "409   ******4d28   ******e348   f7395bfa-7563-4bee-bb53-e4517689a0c1   0XCA007E   DUPLICATE BOARDING REQUEST RECEIVED FOR SAME ACCOUNT AND ECN   64190  DUP REQ REJECTED",
+            "messageReturnCode": "0X00007E",
+            "eventTime": "2026-08-11T11:02:12.413Z"
+        },
+        {
+            "accountNumber": "0823901375",
+            "loanBoardingText": "200   ******a456   ******c4c0   9b3afb9d-0549-48ae-90b3-fc64c23654d0   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-12T14:35:33.705Z"
+        },
+        {
+            "accountNumber": "7466403945",
+            "loanBoardingText": "403   ******48db   ******5652   d0e92361-a939-4a7f-bce6-939ee82b4c83   0XCA020E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, BUT THE REL. CODE IS DIFFERENT   64189  ACCT REL ALREADY PRES ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-11T02:28:14.630Z"
+        },
+        {
+            "accountNumber": "5884584840",
+            "loanBoardingText": "200   ******f484   ******fdee   6d88f550-00f3-4a4b-9091-0bbc611c1514   0XCA021E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, REL. CODE MATCHES   64188  ACCT REL CONFIRMED ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-24T00:47:02.152Z"
+        },
+        {
+            "accountNumber": "7788826541",
+            "loanBoardingText": "404   ******968e   ******23a0   4f5ece8a-e096-425f-bb5c-7ba3c27fd6d3   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-01T18:22:19.535Z"
+        },
+        {
+            "accountNumber": "6438604233",
+            "loanBoardingText": "404   ******8642   ******5d20   bf68fe4a-5723-418f-a5fe-1627dcfa0131   0XCA015E   ACCOUNT NUMBER NOT FOUND ON HOGAN   70021  ACCT NOT PRES ON FILE",
+            "messageReturnCode": "0X00015E",
+            "eventTime": "2026-08-08T22:09:28.065Z"
+        },
+        {
+            "accountNumber": "8869237737",
+            "loanBoardingText": "200   ******2a4c   ******f0de   9a3e9af8-649b-4f00-a1d1-7904aeebca88   0XCA021E   CUAC ALREADY EXISTS BETWEEN THE CUSTOMER AND ACCOUNT, REL. CODE MATCHES   64188  ACCT REL CONFIRMED ON CUST",
+            "messageReturnCode": "0X00002E",
+            "eventTime": "2026-08-20T20:37:28.959Z"
+        },
+        {
+            "accountNumber": "0872222658",
+            "loanBoardingText": "409   ******b3e0   ******8630   8cb2cfe2-f8c9-47fd-8dbf-1e349eb0b5f7   0XCA007E   DUPLICATE BOARDING REQUEST RECEIVED FOR SAME ACCOUNT AND ECN   64190  DUP REQ REJECTED",
+            "messageReturnCode": "0X00007E",
+            "eventTime": "2026-08-04T00:39:35.963Z"
+        },
+        {
+            "accountNumber": "4118269772",
+            "loanBoardingText": "200   ******2398   ******ad24   878448f5-7786-4a9a-b789-3f4f124bc105   0XCA000E   ACCOUNT SUCCESSFULLY BOARDED TO CUSTOMER   00000  NO ERRORS FOUND",
+            "messageReturnCode": "0X00000E",
+            "eventTime": "2026-08-10T20:03:56.801Z"
+        }
+    ],
+    "success": true,
+    "errors": []
+}

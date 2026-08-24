@@ -1,0 +1,24 @@
+[project]
+name = "query-intake"
+version = "0.1.0"
+description = "Free-text query intake: identifier extraction, issue-code/LOB/service-area resolution via vector search, human-confirmed structured output."
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "pydantic>=2.7",
+    "pymongo>=4.8",
+    "python-dateutil>=2.9",
+    "python-dotenv>=1.0",
+    "voyageai>=0.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.2",
+    "pytest-mock>=3.14",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

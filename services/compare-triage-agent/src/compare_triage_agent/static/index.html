@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Customer Sync Triage Assistant</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <div>
+        <h1>Customer Sync Triage Assistant</h1>
+        <p class="subtitle">Ask about Hogan/Alfa compare mismatches or ACCOUNT_COMPARE root cause.</p>
+      </div>
+      <button id="reset-btn" class="ghost-btn" type="button">New conversation</button>
+    </header>
+
+    <main id="messages" class="messages" aria-live="polite">
+      <div class="message assistant">
+        <div class="bubble">
+          Hi! I can help you investigate Hogan/Alfa customer-sync issues. Try asking:
+          <ul>
+            <li>"List everything that doesn't match between Hogan and Alfa."</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <form id="chat-form" class="composer">
+      <textarea
+        id="chat-input"
+        placeholder="Ask a question..."
+        rows="1"
+        autofocus
+      ></textarea>
+      <button id="send-btn" type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,5346 @@
+[
+    {
+        "ecn": "6022768040250",
+        "thirdPartyNumber": "1652580863",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '1985-04-12', Alfa: '1985-04-11'"
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '100 MAIN ST', Alfa: '100 MAIN STREET'"
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "5702202126",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "2296617139",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "6872032298363",
+        "thirdPartyNumber": "9422525832",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '123-45-6789', Alfa: '123456789'"
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "6526144982",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "9826617575030",
+        "thirdPartyNumber": "9883089040",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '123-45-6789', Alfa: '123456789'"
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "4512352206",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "8026219547",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "0444769043821",
+        "thirdPartyNumber": "4422948509",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '100 MAIN ST', Alfa: '100 MAIN STREET'"
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '100 MAIN ST', Alfa: '100 MAIN STREET'"
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "6412070304",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "0580084955",
+                "isMatched": false,
+                "isCuacCodeMatched": false,
+                "comment": "AccountNumber - Hogan: '0580084955', Alfa: '0653263216'; CuacCode - Hogan: '222', Alfa: '002'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[2].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "9906505513",
+                "isMatched": false,
+                "isCuacCodeMatched": false,
+                "comment": "AccountNumber - Hogan: '9906505513', Alfa: '2245398565'; CuacCode - Hogan: '002', Alfa: '176'"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "9111526726249",
+        "thirdPartyNumber": "8042076275",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'INDIVIDUAL', Alfa: 'IND'"
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'US', Alfa: ''"
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'UNITED STATES', Alfa: 'US'"
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '100 MAIN ST', Alfa: '100 MAIN STREET'"
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "6358979217",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "1974672173041",
+        "thirdPartyNumber": "9388263207",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'RETAIL', Alfa: 'CONSUMER'"
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '100 MAIN ST', Alfa: '100 MAIN STREET'"
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "3527095776",
+                "isMatched": true,
+                "isCuacCodeMatched": false,
+                "comment": "CuacCode - Hogan: '002', Alfa: '222'"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "6619563651637",
+        "thirdPartyNumber": "1548327634",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'UNITED STATES', Alfa: 'US'"
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'EN', Alfa: 'ENG'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "6748573316",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "8728645911",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "5374884941847",
+        "thirdPartyNumber": "8274247238",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'JOHN A SMITH', Alfa: 'JOHN SMITH'"
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'CA', Alfa: 'US'"
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '100 MAIN ST', Alfa: '100 MAIN STREET'"
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'NY', Alfa: 'New York'"
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'EN', Alfa: 'ENG'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "7894756224",
+                "isMatched": false,
+                "isCuacCodeMatched": false,
+                "comment": "AccountNumber - Hogan: '7894756224', Alfa: '3641416035'; CuacCode - Hogan: '176', Alfa: '002'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "6140323737",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "0059367679101",
+        "thirdPartyNumber": "1652671671",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '123-45-6789', Alfa: '123456789'"
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "8750560604",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "3841156697",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[2].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "5329247563",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "4322585512452",
+        "thirdPartyNumber": "4740242635",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "7952112105",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "5618485441",
+                "isMatched": false,
+                "isCuacCodeMatched": false,
+                "comment": "AccountNumber - Hogan: '5618485441', Alfa: '9484060153'; CuacCode - Hogan: '176', Alfa: '002'"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "5456739254509",
+        "thirdPartyNumber": "0762025146",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'INDIVIDUAL', Alfa: 'IND'"
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "8013752166",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "4004320985",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "6207469156403",
+        "thirdPartyNumber": "3683629854",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "2128406773",
+                "isMatched": false,
+                "isCuacCodeMatched": false,
+                "comment": "AccountNumber - Hogan: '2128406773', Alfa: '4281961927'; CuacCode - Hogan: '222', Alfa: '002'"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "9253958827495",
+        "thirdPartyNumber": "8225941535",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'NY', Alfa: 'New York'"
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "4055884547",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "1493668883377",
+        "thirdPartyNumber": "8006997406",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'US', Alfa: ''"
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'NY', Alfa: 'New York'"
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "4526468425",
+                "isMatched": false,
+                "isCuacCodeMatched": false,
+                "comment": "AccountNumber - Hogan: '4526468425', Alfa: '9929643981'; CuacCode - Hogan: '222', Alfa: '002'"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "5929625670649",
+        "thirdPartyNumber": "2763666768",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '100 MAIN ST', Alfa: '100 MAIN STREET'"
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "9828487319",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "8799837054",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[2].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "5891208592",
+                "isMatched": false,
+                "isCuacCodeMatched": false,
+                "comment": "AccountNumber - Hogan: '5891208592', Alfa: '8934193408'; CuacCode - Hogan: '176', Alfa: '222'"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "4679471404490",
+        "thirdPartyNumber": "3498065933",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'INDIVIDUAL', Alfa: 'IND'"
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '123-45-6789', Alfa: '123456789'"
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'RETAIL', Alfa: 'CONSUMER'"
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'NY', Alfa: 'New York'"
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "7529957181",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "5021410435426",
+        "thirdPartyNumber": "7963609841",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'US', Alfa: ''"
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'EN', Alfa: 'ENG'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "7242344046",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "9080078555",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[2].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "3678796352",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "1837588986609",
+        "thirdPartyNumber": "8217330854",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'JOHN A SMITH', Alfa: 'JOHN SMITH'"
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'INDIVIDUAL', Alfa: 'IND'"
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'jdoe@old.com', Alfa: 'jdoe@new.com'"
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "4427142646",
+                "isMatched": false,
+                "isCuacCodeMatched": false,
+                "comment": "AccountNumber - Hogan: '4427142646', Alfa: '3503212307'; CuacCode - Hogan: '176', Alfa: '002'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "3758808009",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "5741038689082",
+        "thirdPartyNumber": "5533331515",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'UNITED STATES', Alfa: 'US'"
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'NY', Alfa: 'New York'"
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "6869393446",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "3040326905",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "9709516594889",
+        "thirdPartyNumber": "0607956393",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '123-45-6789', Alfa: '123456789'"
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '1985-04-12', Alfa: '1985-04-11'"
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'NY', Alfa: 'New York'"
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'jdoe@old.com', Alfa: 'jdoe@new.com'"
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "1705631799",
+                "isMatched": true,
+                "isCuacCodeMatched": false,
+                "comment": "CuacCode - Hogan: '002', Alfa: '222'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "5039371912",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "5756865116697",
+        "thirdPartyNumber": "0379677229",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "6851882729",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "9243005293098",
+        "thirdPartyNumber": "6712861740",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'JOHN A SMITH', Alfa: 'JOHN SMITH'"
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '123-45-6789', Alfa: '123456789'"
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '1985-04-12', Alfa: '1985-04-11'"
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'RETAIL', Alfa: 'CONSUMER'"
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '100 MAIN ST', Alfa: '100 MAIN STREET'"
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'NY', Alfa: 'New York'"
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "4624609055",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "3469207376",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "3058174668074",
+        "thirdPartyNumber": "2010959527",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'RETAIL', Alfa: 'CONSUMER'"
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "2044912132",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "1447964670",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[2].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "5710864126",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "0143401332901",
+        "thirdPartyNumber": "5917726692",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'JOHN A SMITH', Alfa: 'JOHN SMITH'"
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'CA', Alfa: 'US'"
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "5121705385",
+                "isMatched": true,
+                "isCuacCodeMatched": false,
+                "comment": "CuacCode - Hogan: '222', Alfa: '002'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "9757809646",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "7619490111373",
+        "thirdPartyNumber": "9882651355",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'UNITED STATES', Alfa: 'US'"
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "4646294862",
+                "isMatched": false,
+                "isCuacCodeMatched": false,
+                "comment": "AccountNumber - Hogan: '4646294862', Alfa: '0442637789'; CuacCode - Hogan: '176', Alfa: '222'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "5121410984",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[2].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "8971194840",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "2502586201123",
+        "thirdPartyNumber": "4005323458",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '123-45-6789', Alfa: '123456789'"
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'UNITED STATES', Alfa: 'US'"
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "4653619723",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "7283695776",
+                "isMatched": false,
+                "isCuacCodeMatched": false,
+                "comment": "AccountNumber - Hogan: '7283695776', Alfa: '4977575166'; CuacCode - Hogan: '222', Alfa: '176'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[2].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "8257144425",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "8775594394556",
+        "thirdPartyNumber": "8682492299",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "2273424259",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "6526560471705",
+        "thirdPartyNumber": "9498419369",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'JOHN A SMITH', Alfa: 'JOHN SMITH'"
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "8051929549",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "1114217757",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "8850611322279",
+        "thirdPartyNumber": "3706601345",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '1985-04-12', Alfa: '1985-04-11'"
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "7657553918",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "5184674840145",
+        "thirdPartyNumber": "5630202047",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'INDIVIDUAL', Alfa: 'IND'"
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'NY', Alfa: 'New York'"
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "0981819319",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "9474324118",
+                "isMatched": true,
+                "isCuacCodeMatched": false,
+                "comment": "CuacCode - Hogan: '002', Alfa: '222'"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "6982054682045",
+        "thirdPartyNumber": "7719295578",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'jdoe@old.com', Alfa: 'jdoe@new.com'"
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "7341374837",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "5951226980",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "2668177548390",
+        "thirdPartyNumber": "9919426295",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'NY', Alfa: 'New York'"
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "7055721252",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "3747747315189",
+        "thirdPartyNumber": "9580800160",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '1985-04-12', Alfa: '1985-04-11'"
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'RETAIL', Alfa: 'CONSUMER'"
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'NY', Alfa: 'New York'"
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "1011582334",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "2686870350014",
+        "thirdPartyNumber": "4758050288",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'INDIVIDUAL', Alfa: 'IND'"
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'UNITED STATES', Alfa: 'US'"
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'EN', Alfa: 'ENG'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "2838371975",
+                "isMatched": true,
+                "isCuacCodeMatched": false,
+                "comment": "CuacCode - Hogan: '222', Alfa: '176'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "8379370294",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[2].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "4660677017",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "3103321145403",
+        "thirdPartyNumber": "0533230999",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '1985-04-12', Alfa: '1985-04-11'"
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'RETAIL', Alfa: 'CONSUMER'"
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '100 MAIN ST', Alfa: '100 MAIN STREET'"
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "1393683388",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "3923992645",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "8315556594742",
+        "thirdPartyNumber": "6874462677",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'JOHN A SMITH', Alfa: 'JOHN SMITH'"
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '100 MAIN ST', Alfa: '100 MAIN STREET'"
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'UNITED STATES', Alfa: 'US'"
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "0963794025",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "5437553014",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[2].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "9134244463",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "1866192115924",
+        "thirdPartyNumber": "1640615372",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '123-45-6789', Alfa: '123456789'"
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'NY', Alfa: 'New York'"
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "3416895632",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "1355445991",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "1868941356447",
+        "thirdPartyNumber": "4157202275",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "2943849728",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "7611220325372",
+        "thirdPartyNumber": "2896097998",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'JOHN A SMITH', Alfa: 'JOHN SMITH'"
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'EN', Alfa: 'ENG'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "4458809668",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "9843251878",
+                "isMatched": true,
+                "isCuacCodeMatched": false,
+                "comment": "CuacCode - Hogan: '002', Alfa: '222'"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "0914949983880",
+        "thirdPartyNumber": "3066067740",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'JOHN A SMITH', Alfa: 'JOHN SMITH'"
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '123-45-6789', Alfa: '123456789'"
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'RETAIL', Alfa: 'CONSUMER'"
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'UNITED STATES', Alfa: 'US'"
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'UNITED STATES', Alfa: 'US'"
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'jdoe@old.com', Alfa: 'jdoe@new.com'"
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "3886605613",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "9642811734726",
+        "thirdPartyNumber": "2672908826",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'UNITED STATES', Alfa: 'US'"
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'jdoe@old.com', Alfa: 'jdoe@new.com'"
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "7970020075",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "4705623528536",
+        "thirdPartyNumber": "8606780044",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'US', Alfa: ''"
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'jdoe@old.com', Alfa: 'jdoe@new.com'"
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "7082075043",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "3215725082431",
+        "thirdPartyNumber": "9859743472",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'JOHN A SMITH', Alfa: 'JOHN SMITH'"
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'INDIVIDUAL', Alfa: 'IND'"
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '100 MAIN ST', Alfa: '100 MAIN STREET'"
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '100 MAIN ST', Alfa: '100 MAIN STREET'"
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'UNITED STATES', Alfa: 'US'"
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "2399775719",
+                "isMatched": false,
+                "isCuacCodeMatched": false,
+                "comment": "AccountNumber - Hogan: '2399775719', Alfa: '5660373732'; CuacCode - Hogan: '176', Alfa: '222'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "4097098573",
+                "isMatched": true,
+                "isCuacCodeMatched": false,
+                "comment": "CuacCode - Hogan: '176', Alfa: '002'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[2].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "6350612893",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "4291711431374",
+        "thirdPartyNumber": "4808376281",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '1985-04-12', Alfa: '1985-04-11'"
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '100 MAIN ST', Alfa: '100 MAIN STREET'"
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'UNITED STATES', Alfa: 'US'"
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'jdoe@old.com', Alfa: 'jdoe@new.com'"
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'EN', Alfa: 'ENG'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "1469059091",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "0881909474343",
+        "thirdPartyNumber": "9241666484",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'JOHN A SMITH', Alfa: 'JOHN SMITH'"
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'INDIVIDUAL', Alfa: 'IND'"
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '100 MAIN ST', Alfa: '100 MAIN STREET'"
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "2050828435",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "2257779593",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "1237357351988",
+        "thirdPartyNumber": "9510060436",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'RETAIL', Alfa: 'CONSUMER'"
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "5339746437",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "6368372107",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "7513866143033",
+        "thirdPartyNumber": "6986730263",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '123-45-6789', Alfa: '123456789'"
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '100 MAIN ST', Alfa: '100 MAIN STREET'"
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "0823901375",
+                "isMatched": true,
+                "isCuacCodeMatched": false,
+                "comment": "CuacCode - Hogan: '002', Alfa: '222'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "7466403945",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "6203540008640",
+        "thirdPartyNumber": "2694174826",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'CA', Alfa: 'US'"
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'NY', Alfa: 'New York'"
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: '100 MAIN ST', Alfa: '100 MAIN STREET'"
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "5884584840",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "5986617199814",
+        "thirdPartyNumber": "9496829903",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'NY', Alfa: 'New York'"
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'EN', Alfa: 'ENG'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "7788826541",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "6438604233",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[2].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "8869237737",
+                "isMatched": true,
+                "isCuacCodeMatched": false,
+                "comment": "CuacCode - Hogan: '222', Alfa: '176'"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "ecn": "9445307074755",
+        "thirdPartyNumber": "1820003134",
+        "attributes": [
+            {
+                "fieldName": "identity.fullName",
+                "keyName": "NAME_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.entityType",
+                "keyName": "ENTITYTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.taxIdentifierNumber",
+                "keyName": "TAXIDENTIFIER_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.birthDate",
+                "keyName": "BIRTHDATE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "identity.individual.nationalityCode",
+                "keyName": "NATIONALITYCODE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "lifecycle.customerType",
+                "keyName": "CUSTOMERTYPE_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].addressLines[0]",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].cityName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].stateCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].postalCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryCode",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "addresses[0].countryName",
+                "keyName": "ADDRESS_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "emails[0].emailAddress",
+                "keyName": "EMAIL_COMPARE",
+                "isMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "preferences.language",
+                "keyName": "PREFERREDLANGUAGE_COMPARE",
+                "isMatched": false,
+                "comment": "Hogan: 'EN', Alfa: 'ENG'"
+            },
+            {
+                "fieldName": "customerToAccounts.ild[0].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "0872222658",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            },
+            {
+                "fieldName": "customerToAccounts.ild[1].accountNumber",
+                "keyName": "ACCOUNT_COMPARE",
+                "accountNumber": "4118269772",
+                "isMatched": true,
+                "isCuacCodeMatched": true,
+                "comment": ""
+            }
+        ],
+        "success": true,
+        "errors": []
+    }
+]

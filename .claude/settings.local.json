@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet sln *)",
+      "Bash(dotnet add *)",
+      "Bash(rm -f src/TriageApi.Core/Class1.cs tests/TriageApi.Core.Tests/UnitTest1.cs src/TriageApi.Api/WeatherForecast.cs)",
+      "Bash(rm -f src/TriageApi.Api/Controllers/WeatherForecastController.cs)",
+      "Bash(dotnet build *)",
+      "Bash(dotnet test *)",
+      "Bash(dotnet --version)",
+      "Bash(\"/c/Program Files/dotnet/dotnet.exe\" --list-sdks)",
+      "Bash(\"/c/Program Files/dotnet/dotnet.exe\" --version)",
+      "Bash(dotnet --list-sdks)",
+      "Bash(ls -la \"/c/Program Files/dotnet/sdk/\" 2>&1)",
+      "Bash(curl -sL --max-time 20 -o plexsans.ttf \"https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsans/IBMPlexSans%5Bwdth,wght%5D.ttf\" -w \"HTTP:%{http_code} SIZE:%{size_download}\\\\n\")",
+      "Bash(python3 -c \"import fontTools; print\\('ok'\\)\")",
+      "Bash(pip show *)",
+      "Bash(base64 -w 0 plexsans.ttf)",
+      "Bash(base64 -w 0 plexmono.ttf)",
+      "Bash(node -e ' *)",
+      "WebSearch",
+      "Bash(\"/d/Softwares/python\" --version)",
+      "Bash(\"/d/Softwares/python\" -m pip --version)",
+      "Bash(\"/d/Softwares/python\" -m venv .venv)",
+      "Bash(\".venv/Scripts/python\" -m pip install --quiet --upgrade pip)",
+      "Bash(\".venv/Scripts/python\" -m pip install --quiet -e \".[dev]\")",
+      "Bash(\".venv/Scripts/python\" -m pip show httpx)",
+      "Bash(\".venv/Scripts/python\" -m pytest -q)",
+      "Bash(\".venv/Scripts/python\" scripts/update_vector_store.py --dry-run)",
+      "Bash(\".venv/Scripts/python\" -m pip show pymongo)",
+      "Bash(\".venv/Scripts/python\" -c \"from dotenv import load_dotenv; load_dotenv\\(\\); import os; print\\('MONGO_ATLAS_CONNECTION_STRING set:', bool\\(os.environ.get\\('MONGO_ATLAS_CONNECTION_STRING'\\)\\)\\); print\\('VOYAGE_API_KEY set:', bool\\(os.environ.get\\('VOYAGE_API_KEY'\\)\\)\\)\")"
+    ]
+  }
+}

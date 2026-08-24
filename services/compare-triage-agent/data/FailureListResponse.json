@@ -1,0 +1,1502 @@
+[
+    {
+        "accountNumber": "5702202126",
+        "ecn": "6022768040250",
+        "failures": [
+            {
+                "correlationId": "2453a523-0973-4dd6-b553-334cb9035b42",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-22T05:06:00.194+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU220E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07430  NAME FIELD EXCEEDS MAX LENGTH, 07430  NAME FIELD EXCEEDS MAX LENGTH RC:OXCU220E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "2296617139",
+        "ecn": "6022768040250",
+        "failures": [
+            {
+                "correlationId": "f0469992-71de-4460-8148-fe1ec4315cbb",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-25T10:23:17.457+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU115E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08825  CONSENT DATE OUT OF RANGE, 08825  CONSENT DATE OUT OF RANGE RC:OXCU115E"
+            },
+            {
+                "correlationId": "73c988b7-66a4-4052-9a1f-cbf5e945f4a3",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-16T08:25:02.649+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU205E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06215  INVALID POSTAL CODE FORMAT, 06215  INVALID POSTAL CODE FORMAT RC:OXCU205E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "6526144982",
+        "ecn": "6872032298363",
+        "failures": [
+            {
+                "correlationId": "4f0f69cb-e2c1-46df-b16f-8ddb8f952dbb",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-22T11:20:45.161+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU215E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06220  ADDRESS LINE EXCEEDS MAX LENGTH, 06220  ADDRESS LINE EXCEEDS MAX LENGTH RC:OXCU215E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "4512352206",
+        "ecn": "9826617575030",
+        "failures": [
+            {
+                "correlationId": "611528cb-2e62-4061-b1ff-992e27d31729",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-15T15:35:18.247+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU120E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09380  PHONE TYPE CODE INVALID, 09380  PHONE TYPE CODE INVALID RC:OXCU120E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "8026219547",
+        "ecn": "9826617575030",
+        "failures": [
+            {
+                "correlationId": "a55e3e2b-77b0-4203-a3d0-79477fd0aba5",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-20T05:10:59.531+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU115E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08825  CONSENT DATE OUT OF RANGE, 08825  CONSENT DATE OUT OF RANGE RC:OXCU115E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "6412070304",
+        "ecn": "0444769043821",
+        "failures": [
+            {
+                "correlationId": "f5aec068-786f-4a1b-a020-a2e5b41914a5",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-15T11:38:35.284+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU215E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06220  ADDRESS LINE EXCEEDS MAX LENGTH, 06220  ADDRESS LINE EXCEEDS MAX LENGTH RC:OXCU215E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "0580084955",
+        "ecn": "0444769043821",
+        "failures": [
+            {
+                "correlationId": "8eca1e66-2b3e-4e30-afe2-fe22ef6d9214",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-19T01:21:20.295+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU100E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09373  INVALID PHONE NUMBER ENTERED, 09373  INVALID PHONE NUMBER ENTERED RC:OXCU100E"
+            },
+            {
+                "correlationId": "82084016-936b-4b34-8e09-d705f70d5753",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-23T17:58:12.297+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU200E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07421  INVALID CHARACTER IN NAME FIELD, 07421  INVALID CHARACTER IN NAME FIELD RC:OXCU200E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "9906505513",
+        "ecn": "0444769043821",
+        "failures": [
+            {
+                "correlationId": "68cb5f8a-9cc2-48a0-a9ea-ae7e88b4986f",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-24T14:46:19.932+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU100E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09373  INVALID PHONE NUMBER ENTERED, 09373  INVALID PHONE NUMBER ENTERED RC:OXCU100E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "6358979217",
+        "ecn": "9111526726249",
+        "failures": [
+            {
+                "correlationId": "d36e7b18-454e-4d72-8161-845abfd061f2",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-21T03:37:42.203+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU225E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06230  INVALID STATE CODE ENTERED, 06230  INVALID STATE CODE ENTERED RC:OXCU225E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "3527095776",
+        "ecn": "1974672173041",
+        "failures": [
+            {
+                "correlationId": "d3981f55-903e-41aa-a4c3-676a94e16379",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-19T00:33:32.944+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU100E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09373  INVALID PHONE NUMBER ENTERED, 09373  INVALID PHONE NUMBER ENTERED RC:OXCU100E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "6748573316",
+        "ecn": "6619563651637",
+        "failures": [
+            {
+                "correlationId": "9a70c014-4599-4c6a-820e-8dcb134d34aa",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-14T16:02:57.181+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU100E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09373  INVALID PHONE NUMBER ENTERED, 09373  INVALID PHONE NUMBER ENTERED RC:OXCU100E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "8728645911",
+        "ecn": "6619563651637",
+        "failures": [
+            {
+                "correlationId": "6a42aba0-c089-4860-805a-9ff359c4d898",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-22T21:19:55.429+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU215E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06220  ADDRESS LINE EXCEEDS MAX LENGTH, 06220  ADDRESS LINE EXCEEDS MAX LENGTH RC:OXCU215E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "7894756224",
+        "ecn": "5374884941847",
+        "failures": [
+            {
+                "correlationId": "e9916c55-d00d-40e5-8868-bc7e4e53824f",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-20T20:33:23.994+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU215E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06220  ADDRESS LINE EXCEEDS MAX LENGTH, 06220  ADDRESS LINE EXCEEDS MAX LENGTH RC:OXCU215E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "6140323737",
+        "ecn": "5374884941847",
+        "failures": [
+            {
+                "correlationId": "6e93eaa0-42f5-4242-855e-ea82ea62c37f",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-17T19:59:00.657+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU100E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09373  INVALID PHONE NUMBER ENTERED, 09373  INVALID PHONE NUMBER ENTERED RC:OXCU100E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "8750560604",
+        "ecn": "0059367679101",
+        "failures": [
+            {
+                "correlationId": "c91d03f8-4137-4692-a4f0-fb9e703a44a1",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-18T04:49:06.624+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU105E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08821  INVALID CONSENT CODE ENTERED, 08821  INVALID CONSENT CODE ENTERED RC:OXCU105E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "3841156697",
+        "ecn": "0059367679101",
+        "failures": [
+            {
+                "correlationId": "545cd9ee-2070-4ad1-96fa-fae4a4eefc54",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-15T16:38:19.651+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU115E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08825  CONSENT DATE OUT OF RANGE, 08825  CONSENT DATE OUT OF RANGE RC:OXCU115E"
+            },
+            {
+                "correlationId": "6cb13358-1a75-45ff-8ceb-cedddf70cb51",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-24T01:56:45.130+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU200E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07421  INVALID CHARACTER IN NAME FIELD, 07421  INVALID CHARACTER IN NAME FIELD RC:OXCU200E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "5329247563",
+        "ecn": "0059367679101",
+        "failures": [
+            {
+                "correlationId": "6cbe443d-422f-45ba-8121-0c7391d715f3",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-17T02:44:46.318+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU220E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07430  NAME FIELD EXCEEDS MAX LENGTH, 07430  NAME FIELD EXCEEDS MAX LENGTH RC:OXCU220E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "7952112105",
+        "ecn": "4322585512452",
+        "failures": [
+            {
+                "correlationId": "dff841cf-5983-48cb-a04c-1132e7eb4420",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-17T20:20:46.567+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU105E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08821  INVALID CONSENT CODE ENTERED, 08821  INVALID CONSENT CODE ENTERED RC:OXCU105E"
+            },
+            {
+                "correlationId": "94211f00-2d23-4d7e-a1e7-cb1484cff2d3",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-21T06:11:11.048+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU225E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06230  INVALID STATE CODE ENTERED, 06230  INVALID STATE CODE ENTERED RC:OXCU225E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "5618485441",
+        "ecn": "4322585512452",
+        "failures": [
+            {
+                "correlationId": "cecd556e-9644-4980-ab99-884e2527f7af",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-18T22:20:51.263+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU120E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09380  PHONE TYPE CODE INVALID, 09380  PHONE TYPE CODE INVALID RC:OXCU120E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "8013752166",
+        "ecn": "5456739254509",
+        "failures": [
+            {
+                "correlationId": "0621592b-362c-4af0-8e76-01d05d48d673",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-22T00:06:17.737+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU120E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09380  PHONE TYPE CODE INVALID, 09380  PHONE TYPE CODE INVALID RC:OXCU120E"
+            },
+            {
+                "correlationId": "582e41a5-98a7-40c0-a621-48c96a83d24b",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-18T06:08:47.630+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU205E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06215  INVALID POSTAL CODE FORMAT, 06215  INVALID POSTAL CODE FORMAT RC:OXCU205E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "4004320985",
+        "ecn": "5456739254509",
+        "failures": [
+            {
+                "correlationId": "36835e4f-1d16-441c-9458-294592d0d8b0",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-18T13:34:10.421+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU105E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08821  INVALID CONSENT CODE ENTERED, 08821  INVALID CONSENT CODE ENTERED RC:OXCU105E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "2128406773",
+        "ecn": "6207469156403",
+        "failures": [
+            {
+                "correlationId": "b5749b12-8311-4766-b9e9-edf0227be7ba",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-16T23:56:39.996+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU100E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09373  INVALID PHONE NUMBER ENTERED, 09373  INVALID PHONE NUMBER ENTERED RC:OXCU100E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "4055884547",
+        "ecn": "9253958827495",
+        "failures": [
+            {
+                "correlationId": "9088ab7d-cc95-4cb7-8aa3-24d6a078dc65",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-22T01:15:52.534+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU105E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08821  INVALID CONSENT CODE ENTERED, 08821  INVALID CONSENT CODE ENTERED RC:OXCU105E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "4526468425",
+        "ecn": "1493668883377",
+        "failures": [
+            {
+                "correlationId": "dc423f4f-6ba1-457f-a9f7-7d527456a583",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-14T15:04:04.717+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU120E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09380  PHONE TYPE CODE INVALID, 09380  PHONE TYPE CODE INVALID RC:OXCU120E"
+            },
+            {
+                "correlationId": "80d5af4e-127a-445c-9a12-dc3aec843438",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-15T10:13:10.068+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU200E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07421  INVALID CHARACTER IN NAME FIELD, 07421  INVALID CHARACTER IN NAME FIELD RC:OXCU200E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "9828487319",
+        "ecn": "5929625670649",
+        "failures": [
+            {
+                "correlationId": "01055e21-af31-41b8-b416-896a420189bd",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-15T17:01:40.754+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU105E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08821  INVALID CONSENT CODE ENTERED, 08821  INVALID CONSENT CODE ENTERED RC:OXCU105E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "8799837054",
+        "ecn": "5929625670649",
+        "failures": [
+            {
+                "correlationId": "8f4781c7-02ff-4b25-be7c-be2fa2663c6b",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-20T01:38:49.922+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU105E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08821  INVALID CONSENT CODE ENTERED, 08821  INVALID CONSENT CODE ENTERED RC:OXCU105E"
+            },
+            {
+                "correlationId": "f229d7c6-0b5e-45cd-ad80-13d1d2f2f9e8",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-15T06:09:06.678+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU215E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06220  ADDRESS LINE EXCEEDS MAX LENGTH, 06220  ADDRESS LINE EXCEEDS MAX LENGTH RC:OXCU215E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "5891208592",
+        "ecn": "5929625670649",
+        "failures": [
+            {
+                "correlationId": "cc444460-ea39-436f-8e47-fd6d013e87c8",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-23T16:38:11.118+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU200E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07421  INVALID CHARACTER IN NAME FIELD, 07421  INVALID CHARACTER IN NAME FIELD RC:OXCU200E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "7529957181",
+        "ecn": "4679471404490",
+        "failures": [
+            {
+                "correlationId": "5db067d8-0beb-4787-a9a3-aaf52dbfa189",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-21T14:17:43.451+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU110E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09374  PHONE NUMBER EXCEEDS MAX LENGTH, 09374  PHONE NUMBER EXCEEDS MAX LENGTH RC:OXCU110E"
+            },
+            {
+                "correlationId": "17b74f02-41a0-41fb-bbf1-e2f51bba69f8",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-16T07:21:38.317+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU220E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07430  NAME FIELD EXCEEDS MAX LENGTH, 07430  NAME FIELD EXCEEDS MAX LENGTH RC:OXCU220E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "7242344046",
+        "ecn": "5021410435426",
+        "failures": [
+            {
+                "correlationId": "9d1f03d4-4a53-4cd8-9ca6-90bddbf678f9",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-18T12:40:37.629+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU100E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09373  INVALID PHONE NUMBER ENTERED, 09373  INVALID PHONE NUMBER ENTERED RC:OXCU100E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "9080078555",
+        "ecn": "5021410435426",
+        "failures": [
+            {
+                "correlationId": "dd1c0f9e-a3f9-44e7-be0c-1386871cc9bc",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-15T01:52:15.626+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU110E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09374  PHONE NUMBER EXCEEDS MAX LENGTH, 09374  PHONE NUMBER EXCEEDS MAX LENGTH RC:OXCU110E"
+            },
+            {
+                "correlationId": "540bbdd3-208c-43e5-b91c-47e562d29a7b",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-17T01:16:05.510+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU220E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07430  NAME FIELD EXCEEDS MAX LENGTH, 07430  NAME FIELD EXCEEDS MAX LENGTH RC:OXCU220E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "3678796352",
+        "ecn": "5021410435426",
+        "failures": [
+            {
+                "correlationId": "bdf8f8a1-6bd8-44bc-94fd-61ae277a898f",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-18T11:00:57.772+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU110E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09374  PHONE NUMBER EXCEEDS MAX LENGTH, 09374  PHONE NUMBER EXCEEDS MAX LENGTH RC:OXCU110E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "4427142646",
+        "ecn": "1837588986609",
+        "failures": [
+            {
+                "correlationId": "c45ec7b2-b090-4e72-8345-6f78c8c3b864",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-18T09:31:26.139+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU115E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08825  CONSENT DATE OUT OF RANGE, 08825  CONSENT DATE OUT OF RANGE RC:OXCU115E"
+            },
+            {
+                "correlationId": "18dbceaa-4c8c-439f-81d1-d22828539882",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-19T16:18:10.283+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU215E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06220  ADDRESS LINE EXCEEDS MAX LENGTH, 06220  ADDRESS LINE EXCEEDS MAX LENGTH RC:OXCU215E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "3758808009",
+        "ecn": "1837588986609",
+        "failures": [
+            {
+                "correlationId": "3facdcb9-f9d4-4857-b51d-2aab7502816e",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-18T21:26:32.640+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU115E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08825  CONSENT DATE OUT OF RANGE, 08825  CONSENT DATE OUT OF RANGE RC:OXCU115E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "6869393446",
+        "ecn": "5741038689082",
+        "failures": [
+            {
+                "correlationId": "d076e490-6c13-42ba-847a-91351a77442c",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-24T04:53:10.032+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU210E,ERROR IN APPLYING DOB MAINTENANCE FOR CUSTOMER,05987  INVALID BIRTH DATE FORMAT, 05987  INVALID BIRTH DATE FORMAT RC:OXCU210E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "3040326905",
+        "ecn": "5741038689082",
+        "failures": [
+            {
+                "correlationId": "20cfd29a-a3db-4442-807e-b03dd15c9b91",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-25T12:50:42.316+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU100E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09373  INVALID PHONE NUMBER ENTERED, 09373  INVALID PHONE NUMBER ENTERED RC:OXCU100E"
+            },
+            {
+                "correlationId": "54ff456a-0c1f-4ba6-b2f3-f3a380da8efb",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-15T10:41:31.194+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU220E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07430  NAME FIELD EXCEEDS MAX LENGTH, 07430  NAME FIELD EXCEEDS MAX LENGTH RC:OXCU220E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "1705631799",
+        "ecn": "9709516594889",
+        "failures": [
+            {
+                "correlationId": "3f5efb63-5b17-49a8-9162-1bb37edf3491",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-17T19:23:09.118+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU210E,ERROR IN APPLYING DOB MAINTENANCE FOR CUSTOMER,05987  INVALID BIRTH DATE FORMAT, 05987  INVALID BIRTH DATE FORMAT RC:OXCU210E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "5039371912",
+        "ecn": "9709516594889",
+        "failures": [
+            {
+                "correlationId": "eca77133-a108-4d4a-b808-2bbb8c0578c7",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-25T11:24:29.079+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU120E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09380  PHONE TYPE CODE INVALID, 09380  PHONE TYPE CODE INVALID RC:OXCU120E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "6851882729",
+        "ecn": "5756865116697",
+        "failures": [
+            {
+                "correlationId": "29f46879-af5d-413d-8192-817ee7435535",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-18T20:18:06.483+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU115E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08825  CONSENT DATE OUT OF RANGE, 08825  CONSENT DATE OUT OF RANGE RC:OXCU115E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "4624609055",
+        "ecn": "9243005293098",
+        "failures": [
+            {
+                "correlationId": "f84c9065-deb5-4aad-a4db-0d5e79b49a0e",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-17T23:22:28.714+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU205E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06215  INVALID POSTAL CODE FORMAT, 06215  INVALID POSTAL CODE FORMAT RC:OXCU205E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "3469207376",
+        "ecn": "9243005293098",
+        "failures": [
+            {
+                "correlationId": "e3c7054c-7fa4-42f5-a1eb-0afd9d5dad16",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-21T13:30:20.420+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU205E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06215  INVALID POSTAL CODE FORMAT, 06215  INVALID POSTAL CODE FORMAT RC:OXCU205E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "2044912132",
+        "ecn": "3058174668074",
+        "failures": [
+            {
+                "correlationId": "3029ff43-862d-49c6-8acf-a26770387ad2",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-21T21:14:02.006+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU215E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06220  ADDRESS LINE EXCEEDS MAX LENGTH, 06220  ADDRESS LINE EXCEEDS MAX LENGTH RC:OXCU215E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "1447964670",
+        "ecn": "3058174668074",
+        "failures": [
+            {
+                "correlationId": "6330becf-1c32-4e5e-acca-ec4d49fc1f87",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-23T01:02:26.209+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU225E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06230  INVALID STATE CODE ENTERED, 06230  INVALID STATE CODE ENTERED RC:OXCU225E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "5710864126",
+        "ecn": "3058174668074",
+        "failures": [
+            {
+                "correlationId": "7666df0c-7b0b-4234-8583-a59658c56fb5",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-15T20:49:03.089+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU225E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06230  INVALID STATE CODE ENTERED, 06230  INVALID STATE CODE ENTERED RC:OXCU225E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "5121705385",
+        "ecn": "0143401332901",
+        "failures": [
+            {
+                "correlationId": "05083c35-808c-4793-bbba-5ecb2d08552a",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-19T13:27:07.516+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU210E,ERROR IN APPLYING DOB MAINTENANCE FOR CUSTOMER,05987  INVALID BIRTH DATE FORMAT, 05987  INVALID BIRTH DATE FORMAT RC:OXCU210E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "9757809646",
+        "ecn": "0143401332901",
+        "failures": [
+            {
+                "correlationId": "d40719cc-e5bb-4865-a8d8-4ce59f279123",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-23T04:22:23.941+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU110E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09374  PHONE NUMBER EXCEEDS MAX LENGTH, 09374  PHONE NUMBER EXCEEDS MAX LENGTH RC:OXCU110E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "4646294862",
+        "ecn": "7619490111373",
+        "failures": [
+            {
+                "correlationId": "28ed8a34-6177-49cc-9dae-19737cb8d323",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-20T15:44:40.703+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU100E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09373  INVALID PHONE NUMBER ENTERED, 09373  INVALID PHONE NUMBER ENTERED RC:OXCU100E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "5121410984",
+        "ecn": "7619490111373",
+        "failures": [
+            {
+                "correlationId": "cec3e7f3-d3ea-4e00-ad05-13b9310ac50e",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-23T12:17:34.901+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU220E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07430  NAME FIELD EXCEEDS MAX LENGTH, 07430  NAME FIELD EXCEEDS MAX LENGTH RC:OXCU220E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "8971194840",
+        "ecn": "7619490111373",
+        "failures": [
+            {
+                "correlationId": "fd5512fd-03e1-4529-a4ec-fc6c46dc8f74",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-15T22:01:39.297+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU225E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06230  INVALID STATE CODE ENTERED, 06230  INVALID STATE CODE ENTERED RC:OXCU225E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "4653619723",
+        "ecn": "2502586201123",
+        "failures": [
+            {
+                "correlationId": "ac6af0ca-715f-40f9-a0fe-fdde457187a6",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-23T07:27:04.262+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU205E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06215  INVALID POSTAL CODE FORMAT, 06215  INVALID POSTAL CODE FORMAT RC:OXCU205E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "7283695776",
+        "ecn": "2502586201123",
+        "failures": [
+            {
+                "correlationId": "ffdd020c-084e-44cf-846d-4c6750cc6f6a",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-18T00:27:15.557+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU220E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07430  NAME FIELD EXCEEDS MAX LENGTH, 07430  NAME FIELD EXCEEDS MAX LENGTH RC:OXCU220E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "8257144425",
+        "ecn": "2502586201123",
+        "failures": [
+            {
+                "correlationId": "cab184f4-1260-454d-8770-a691f645cf99",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-18T04:07:13.005+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU115E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08825  CONSENT DATE OUT OF RANGE, 08825  CONSENT DATE OUT OF RANGE RC:OXCU115E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "2273424259",
+        "ecn": "8775594394556",
+        "failures": [
+            {
+                "correlationId": "e4ae7256-e59f-4ca7-b54f-65a5c867e10b",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-15T07:31:31.820+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU220E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07430  NAME FIELD EXCEEDS MAX LENGTH, 07430  NAME FIELD EXCEEDS MAX LENGTH RC:OXCU220E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "8051929549",
+        "ecn": "6526560471705",
+        "failures": [
+            {
+                "correlationId": "0f303b94-09d5-4f70-909e-b877c5d70471",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-16T17:32:40.423+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU100E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09373  INVALID PHONE NUMBER ENTERED, 09373  INVALID PHONE NUMBER ENTERED RC:OXCU100E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "1114217757",
+        "ecn": "6526560471705",
+        "failures": [
+            {
+                "correlationId": "bc58ac66-0f3d-4232-ae17-c24664235bd5",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-21T18:54:33.835+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU115E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08825  CONSENT DATE OUT OF RANGE, 08825  CONSENT DATE OUT OF RANGE RC:OXCU115E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "7657553918",
+        "ecn": "8850611322279",
+        "failures": [
+            {
+                "correlationId": "927eb468-f98b-4e93-b113-7e5f47a69751",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-18T04:12:07.266+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU200E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07421  INVALID CHARACTER IN NAME FIELD, 07421  INVALID CHARACTER IN NAME FIELD RC:OXCU200E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "0981819319",
+        "ecn": "5184674840145",
+        "failures": [
+            {
+                "correlationId": "3bdefa5d-c933-40d9-938a-7f309620712a",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-14T20:42:20.703+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU200E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07421  INVALID CHARACTER IN NAME FIELD, 07421  INVALID CHARACTER IN NAME FIELD RC:OXCU200E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "9474324118",
+        "ecn": "5184674840145",
+        "failures": [
+            {
+                "correlationId": "b072e399-b00a-4934-a305-97260f2071dc",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-18T10:04:12.748+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU110E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09374  PHONE NUMBER EXCEEDS MAX LENGTH, 09374  PHONE NUMBER EXCEEDS MAX LENGTH RC:OXCU110E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "7341374837",
+        "ecn": "6982054682045",
+        "failures": [
+            {
+                "correlationId": "8ad24e6c-af23-4f6f-a5b1-65b3b7332f71",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-23T23:18:18.543+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU120E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09380  PHONE TYPE CODE INVALID, 09380  PHONE TYPE CODE INVALID RC:OXCU120E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "5951226980",
+        "ecn": "6982054682045",
+        "failures": [
+            {
+                "correlationId": "271f32c0-5620-43c2-bece-eaeca8e02152",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-23T09:43:40.884+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU115E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08825  CONSENT DATE OUT OF RANGE, 08825  CONSENT DATE OUT OF RANGE RC:OXCU115E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "7055721252",
+        "ecn": "2668177548390",
+        "failures": [
+            {
+                "correlationId": "ce5d955e-281c-4900-8659-693bc582deae",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-22T21:27:40.600+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU205E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06215  INVALID POSTAL CODE FORMAT, 06215  INVALID POSTAL CODE FORMAT RC:OXCU205E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "1011582334",
+        "ecn": "3747747315189",
+        "failures": [
+            {
+                "correlationId": "7e5631df-1be3-4e3b-93d6-62f9a6392a6f",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-17T01:11:26.944+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU110E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09374  PHONE NUMBER EXCEEDS MAX LENGTH, 09374  PHONE NUMBER EXCEEDS MAX LENGTH RC:OXCU110E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "2838371975",
+        "ecn": "2686870350014",
+        "failures": [
+            {
+                "correlationId": "5d04f4ef-26fa-4f93-ab4e-6592f97d6a9b",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-15T19:29:21.744+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU105E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08821  INVALID CONSENT CODE ENTERED, 08821  INVALID CONSENT CODE ENTERED RC:OXCU105E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "8379370294",
+        "ecn": "2686870350014",
+        "failures": [
+            {
+                "correlationId": "3adcc668-5b84-4726-9cbe-d83cfd1fdc2b",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-21T04:07:56.129+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU100E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09373  INVALID PHONE NUMBER ENTERED, 09373  INVALID PHONE NUMBER ENTERED RC:OXCU100E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "4660677017",
+        "ecn": "2686870350014",
+        "failures": [
+            {
+                "correlationId": "c0561d7d-982a-45f7-bf89-632b230473a3",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-14T17:45:42.366+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU225E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06230  INVALID STATE CODE ENTERED, 06230  INVALID STATE CODE ENTERED RC:OXCU225E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "1393683388",
+        "ecn": "3103321145403",
+        "failures": [
+            {
+                "correlationId": "cd8db578-a05b-486e-9268-deb8232bf708",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-25T01:05:49.193+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU120E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09380  PHONE TYPE CODE INVALID, 09380  PHONE TYPE CODE INVALID RC:OXCU120E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "3923992645",
+        "ecn": "3103321145403",
+        "failures": [
+            {
+                "correlationId": "b169a602-ce7b-4f3c-8587-91145d82d172",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-15T08:12:38.582+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU200E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07421  INVALID CHARACTER IN NAME FIELD, 07421  INVALID CHARACTER IN NAME FIELD RC:OXCU200E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "0963794025",
+        "ecn": "8315556594742",
+        "failures": [
+            {
+                "correlationId": "7fe9cc22-a2f1-4549-a543-7bf7dd2d81e7",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-15T20:44:59.289+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU105E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08821  INVALID CONSENT CODE ENTERED, 08821  INVALID CONSENT CODE ENTERED RC:OXCU105E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "5437553014",
+        "ecn": "8315556594742",
+        "failures": [
+            {
+                "correlationId": "5aac07f4-82fb-4e69-9b91-e6d784db21e0",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-17T12:02:10.099+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU100E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09373  INVALID PHONE NUMBER ENTERED, 09373  INVALID PHONE NUMBER ENTERED RC:OXCU100E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "9134244463",
+        "ecn": "8315556594742",
+        "failures": [
+            {
+                "correlationId": "19f2ff3c-0bc8-4605-a735-dd6364c19bba",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-23T02:00:19.382+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU215E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06220  ADDRESS LINE EXCEEDS MAX LENGTH, 06220  ADDRESS LINE EXCEEDS MAX LENGTH RC:OXCU215E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "3416895632",
+        "ecn": "1866192115924",
+        "failures": [
+            {
+                "correlationId": "17a5b65d-8e07-474e-b7cf-bbdcd77cae01",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-17T19:59:35.757+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU200E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07421  INVALID CHARACTER IN NAME FIELD, 07421  INVALID CHARACTER IN NAME FIELD RC:OXCU200E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "1355445991",
+        "ecn": "1866192115924",
+        "failures": [
+            {
+                "correlationId": "4843cf2a-b668-4e2c-8741-396c3560ea26",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-23T19:39:38.015+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU205E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06215  INVALID POSTAL CODE FORMAT, 06215  INVALID POSTAL CODE FORMAT RC:OXCU205E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "2943849728",
+        "ecn": "1868941356447",
+        "failures": [
+            {
+                "correlationId": "ac99b07c-878d-4748-abd2-4531032a3ac2",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-24T09:45:38.349+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU115E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08825  CONSENT DATE OUT OF RANGE, 08825  CONSENT DATE OUT OF RANGE RC:OXCU115E"
+            },
+            {
+                "correlationId": "fabd867a-e0c3-4e3e-8b9b-a1769272f35e",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-16T14:20:55.834+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU210E,ERROR IN APPLYING DOB MAINTENANCE FOR CUSTOMER,05987  INVALID BIRTH DATE FORMAT, 05987  INVALID BIRTH DATE FORMAT RC:OXCU210E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "4458809668",
+        "ecn": "7611220325372",
+        "failures": [
+            {
+                "correlationId": "8277483d-fe0c-4ab7-893a-9c4e2183bca1",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-23T12:56:55.783+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU110E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09374  PHONE NUMBER EXCEEDS MAX LENGTH, 09374  PHONE NUMBER EXCEEDS MAX LENGTH RC:OXCU110E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "9843251878",
+        "ecn": "7611220325372",
+        "failures": [
+            {
+                "correlationId": "8d78ba86-ee35-4c48-9923-fa6bb54cfbd5",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-16T17:24:27.480+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU225E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06230  INVALID STATE CODE ENTERED, 06230  INVALID STATE CODE ENTERED RC:OXCU225E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "3886605613",
+        "ecn": "0914949983880",
+        "failures": [
+            {
+                "correlationId": "ce9bba4b-7d9a-4bd1-9010-20f5a4e8296c",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-25T09:36:20.967+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU110E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09374  PHONE NUMBER EXCEEDS MAX LENGTH, 09374  PHONE NUMBER EXCEEDS MAX LENGTH RC:OXCU110E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "7970020075",
+        "ecn": "9642811734726",
+        "failures": [
+            {
+                "correlationId": "49dcfd92-8102-4cb3-8833-fc505a11943f",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-25T03:09:17.078+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU105E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08821  INVALID CONSENT CODE ENTERED, 08821  INVALID CONSENT CODE ENTERED RC:OXCU105E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "7082075043",
+        "ecn": "4705623528536",
+        "failures": [
+            {
+                "correlationId": "7e7310ec-b4b9-42dd-a5ea-786b8b06c2be",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-24T21:17:13.404+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU215E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06220  ADDRESS LINE EXCEEDS MAX LENGTH, 06220  ADDRESS LINE EXCEEDS MAX LENGTH RC:OXCU215E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "2399775719",
+        "ecn": "3215725082431",
+        "failures": [
+            {
+                "correlationId": "3d5be29c-6d52-44a9-bebd-90d7ca157aca",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-16T13:48:22.411+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU120E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09380  PHONE TYPE CODE INVALID, 09380  PHONE TYPE CODE INVALID RC:OXCU120E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "4097098573",
+        "ecn": "3215725082431",
+        "failures": [
+            {
+                "correlationId": "b3e02746-4695-4977-a4f3-c299d90346fe",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-25T02:33:12.256+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU105E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08821  INVALID CONSENT CODE ENTERED, 08821  INVALID CONSENT CODE ENTERED RC:OXCU105E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "6350612893",
+        "ecn": "3215725082431",
+        "failures": [
+            {
+                "correlationId": "0e3626e9-f2b9-4362-9fc2-594bbd088de4",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-23T06:59:39.866+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU120E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09380  PHONE TYPE CODE INVALID, 09380  PHONE TYPE CODE INVALID RC:OXCU120E"
+            },
+            {
+                "correlationId": "dab67e2e-ea45-4644-9e62-05c2492c07cc",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-22T10:37:41.684+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU225E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06230  INVALID STATE CODE ENTERED, 06230  INVALID STATE CODE ENTERED RC:OXCU225E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "1469059091",
+        "ecn": "4291711431374",
+        "failures": [
+            {
+                "correlationId": "5828ee9d-1232-4dbe-ad18-c8d35e96744c",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-21T05:44:00.554+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU205E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06215  INVALID POSTAL CODE FORMAT, 06215  INVALID POSTAL CODE FORMAT RC:OXCU205E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "2050828435",
+        "ecn": "0881909474343",
+        "failures": [
+            {
+                "correlationId": "9cfd7f61-eb62-454b-b048-77e789a64518",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-22T03:51:39.612+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU215E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06220  ADDRESS LINE EXCEEDS MAX LENGTH, 06220  ADDRESS LINE EXCEEDS MAX LENGTH RC:OXCU215E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "2257779593",
+        "ecn": "0881909474343",
+        "failures": [
+            {
+                "correlationId": "5c272bf6-8052-4f45-b037-64672e549284",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-22T10:50:41.290+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU210E,ERROR IN APPLYING DOB MAINTENANCE FOR CUSTOMER,05987  INVALID BIRTH DATE FORMAT, 05987  INVALID BIRTH DATE FORMAT RC:OXCU210E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "5339746437",
+        "ecn": "1237357351988",
+        "failures": [
+            {
+                "correlationId": "24f3518e-20b1-434d-9f96-262bcbb50c69",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-14T15:22:21.043+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU210E,ERROR IN APPLYING DOB MAINTENANCE FOR CUSTOMER,05987  INVALID BIRTH DATE FORMAT, 05987  INVALID BIRTH DATE FORMAT RC:OXCU210E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "6368372107",
+        "ecn": "1237357351988",
+        "failures": [
+            {
+                "correlationId": "3277c57d-4453-4b23-8cf4-2f29752b4706",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-15T01:20:31.595+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU115E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08825  CONSENT DATE OUT OF RANGE, 08825  CONSENT DATE OUT OF RANGE RC:OXCU115E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "0823901375",
+        "ecn": "7513866143033",
+        "failures": [
+            {
+                "correlationId": "ada7b2bf-f9f4-4084-9cd0-34a0c9d476af",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-18T04:19:36.996+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU100E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09373  INVALID PHONE NUMBER ENTERED, 09373  INVALID PHONE NUMBER ENTERED RC:OXCU100E"
+            },
+            {
+                "correlationId": "cc83c6a8-453a-48d9-a2c0-016268412621",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-22T18:32:57.931+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU200E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07421  INVALID CHARACTER IN NAME FIELD, 07421  INVALID CHARACTER IN NAME FIELD RC:OXCU200E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "7466403945",
+        "ecn": "7513866143033",
+        "failures": [
+            {
+                "correlationId": "f3db4569-baa3-43b9-b5df-c912ee618e7f",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-24T12:40:09.427+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU105E,ERROR IN APPLYING CONSENT MAINTENANCE FOR CUSTOMER,08821  INVALID CONSENT CODE ENTERED, 08821  INVALID CONSENT CODE ENTERED RC:OXCU105E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "5884584840",
+        "ecn": "6203540008640",
+        "failures": [
+            {
+                "correlationId": "566e02c4-831e-4a39-9fc2-dd416dfc1d1b",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-20T06:42:13.453+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU100E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09373  INVALID PHONE NUMBER ENTERED, 09373  INVALID PHONE NUMBER ENTERED RC:OXCU100E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "7788826541",
+        "ecn": "5986617199814",
+        "failures": [
+            {
+                "correlationId": "ae9e7f7c-a090-4506-96d4-76ddbe47a68f",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-23T23:13:43.429+00:00",
+                "messageReturnCode": "OX00001E",
+                "responseText": "OXCU215E,ERROR IN APPLYING ADDRESS MAINTENANCE FOR CUSTOMER,06220  ADDRESS LINE EXCEEDS MAX LENGTH, 06220  ADDRESS LINE EXCEEDS MAX LENGTH RC:OXCU215E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "6438604233",
+        "ecn": "5986617199814",
+        "failures": [
+            {
+                "correlationId": "8df253e1-784c-41e8-8fa8-d36b0e4e4c8c",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-17T00:19:14.492+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU220E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07430  NAME FIELD EXCEEDS MAX LENGTH, 07430  NAME FIELD EXCEEDS MAX LENGTH RC:OXCU220E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "8869237737",
+        "ecn": "5986617199814",
+        "failures": [
+            {
+                "correlationId": "989a5da2-bafe-47d8-924b-b56b6b51f393",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-23T10:27:28.278+00:00",
+                "messageReturnCode": "OX00003E",
+                "responseText": "OXCU210E,ERROR IN APPLYING DOB MAINTENANCE FOR CUSTOMER,05987  INVALID BIRTH DATE FORMAT, 05987  INVALID BIRTH DATE FORMAT RC:OXCU210E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "0872222658",
+        "ecn": "9445307074755",
+        "failures": [
+            {
+                "correlationId": "785f7e22-8a78-41e5-9656-c3eb1ed25ac2",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-23T21:13:23.245+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU220E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07430  NAME FIELD EXCEEDS MAX LENGTH, 07430  NAME FIELD EXCEEDS MAX LENGTH RC:OXCU220E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    },
+    {
+        "accountNumber": "4118269772",
+        "ecn": "9445307074755",
+        "failures": [
+            {
+                "correlationId": "13fcf06b-f9ed-423c-bf2f-63b0ef8be0e7",
+                "requestMessageType": "OXCU305",
+                "eventTimeStamp": "2026-08-24T21:29:49.643+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU120E,ERROR IN APPLYING PHONE MAINTENANCE FOR CUSTOMER,09380  PHONE TYPE CODE INVALID, 09380  PHONE TYPE CODE INVALID RC:OXCU120E"
+            },
+            {
+                "correlationId": "a9ecb393-be8f-4544-bc7c-fb3b8d1739cf",
+                "requestMessageType": "OXCU318",
+                "eventTimeStamp": "2026-08-18T23:00:07.038+00:00",
+                "messageReturnCode": "OX00002E",
+                "responseText": "OXCU200E,ERROR IN APPLYING NAME MAINTENANCE FOR CUSTOMER,07421  INVALID CHARACTER IN NAME FIELD, 07421  INVALID CHARACTER IN NAME FIELD RC:OXCU200E"
+            }
+        ],
+        "success": true,
+        "errors": []
+    }
+]
