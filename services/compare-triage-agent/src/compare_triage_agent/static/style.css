@@ -8,6 +8,7 @@
   --accent-text: #ffffff;
   --assistant-bubble: #eef0f3;
   --danger: #b3261e;
+  --success: #1a7f37;
   --radius: 14px;
 }
 
@@ -22,6 +23,7 @@
     --accent-text: #0d1117;
     --assistant-bubble: #262a32;
     --danger: #ff6b6b;
+    --success: #4caf6c;
   }
 }
 
@@ -85,6 +87,157 @@ body {
 
 .ghost-btn:hover {
   background: var(--assistant-bubble);
+}
+
+.settings-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 10px 20px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.settings-field {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 0.76rem;
+  color: var(--text-muted);
+}
+
+.settings-field-key {
+  flex: 1;
+  min-width: 200px;
+}
+
+.settings-hint {
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.settings-field select,
+.settings-field input {
+  font: inherit;
+  font-size: 0.85rem;
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+
+.settings-field select:focus,
+.settings-field input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: -1px;
+}
+
+.model-tag {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  opacity: 0.85;
+}
+
+/* Top-level guided menu (welcome bubble) and the Feature Management submenu that
+   appears after clicking "Feature Management" - both client-side only, no round
+   trip to the model; clicking a leaf option composes and sends a plain chat message. */
+
+.menu-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.menu-btn {
+  background: var(--surface);
+}
+
+/* Inline, in-chat reprocess picker: a compact checklist attached under an
+   assistant message when classify_account_compare_failures ran, plus the
+   copyable/downloadable script block once generate_reprocess_script ran. */
+
+.reprocess-picker {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg);
+}
+
+.picker-heading {
+  font-size: 0.82rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.picker-note {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.check-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 4px 0;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+
+.check-row input {
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.reprocess-verdict {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.verdict-true {
+  color: var(--success);
+}
+
+.verdict-false {
+  color: var(--danger);
+}
+
+.picker-actions {
+  margin-top: 8px;
+}
+
+.script-output {
+  margin-top: 10px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.script-block {
+  margin: 0;
+  padding: 12px 14px;
+  background: var(--bg);
+  font-size: 0.78rem;
+  overflow-x: auto;
+  white-space: pre;
+}
+
+.script-actions {
+  display: flex;
+  gap: 8px;
+  padding: 8px 10px;
+  border-top: 1px solid var(--border);
+  background: var(--surface);
 }
 
 .messages {
@@ -260,5 +413,13 @@ body {
   }
   .composer {
     padding: 10px 14px;
+  }
+  .settings-bar {
+    padding: 8px 14px;
+    gap: 8px;
+  }
+  .settings-field-key {
+    min-width: 0;
+    width: 100%;
   }
 }

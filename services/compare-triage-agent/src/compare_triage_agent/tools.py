@@ -25,6 +25,10 @@ def _parse_iso8601(ts: str) -> datetime:
     return datetime.fromisoformat(ts.replace("Z", "+00:00"))
 
 
+def ecn_exists(ecn: str) -> bool:
+    return any(record["ecn"] == ecn for record in load_compare_results())
+
+
 def list_customer_compare_mismatches(ecn: str | None = None) -> list[CustomerMismatch]:
     results: list[CustomerMismatch] = []
     for record in load_compare_results():
@@ -81,6 +85,7 @@ def get_account_compare_root_cause(ecn: str, account_number: str | None = None) 
             summary, succeeded = humanize_boarding_text(boarding["loanBoardingText"])
             primary_status = BoardingStatus(
                 account_number=boarding["accountNumber"],
+                correlation_id=boarding["correlationId"],
                 succeeded=succeeded,
                 summary=summary,
                 event_time=boarding["eventTime"],
@@ -99,6 +104,7 @@ def get_account_compare_root_cause(ecn: str, account_number: str | None = None) 
                     DependentFailure(
                         correlation_id=entry["correlationId"],
                         update_type=describe_request_message_type(entry["requestMessageType"]),
+                        raw_request_message_type=entry["requestMessageType"],
                         description=humanize_response_text(entry["responseText"]),
                         event_time_stamp=entry["eventTimeStamp"],
                     )
@@ -126,7 +132,12 @@ TOOL_DEFINITIONS: list[dict[str, Any]] = [
             "compare run. Omit ecn to get mismatches across all customers in the compare batch; "
             "pass ecn to scope to one customer. Each returned attribute includes its keyName "
             "(e.g. ACCOUNT_COMPARE, PHONE_COMPARE, ADDRESS_COMPARE) so the caller can decide "
-            "whether a root-cause lookup is available for that category."
+            "whether a root-cause lookup is available for that category. If ecn was supplied and "
+            "the result is an object with found:false, no compare record exists for that ECN at "
+            "all; if found:true with an empty mismatches list, the ECN exists but everything "
+            "matched - these are different outcomes, don't conflate them. This is a standalone "
+            "answer, not the first step of a longer pipeline - a request for a mismatch list "
+            "should stop here, not also call a root-cause or classification tool unprompted."
         ),
         "input_schema": {
             "type": "object",
@@ -148,7 +159,14 @@ TOOL_DEFINITIONS: list[dict[str, Any]] = [
             "every FailureListResponse entry for that same ecn+account whose event time is after "
             "the boarding response - i.e. the downstream failures caused by the boarding problem. "
             "All text fields are already plain-English summaries with internal codes/GUIDs stripped "
-            "out - present them as-is rather than looking for or inventing technical codes."
+            "out - present them as-is rather than looking for or inventing technical codes. The one "
+            "exception is correlation_id (on the boarding status and on each dependent failure) - "
+            "that's a legitimate support/ticket reference, not a code to hide; fine to mention if the "
+            "user might need to reference this specific event with support, but don't lead with it. "
+            "If the result is an object with found:false, no matching ACCOUNT_COMPARE mismatch exists for "
+            "that ecn/account_number - relay the message field plainly, don't guess why. This is the tool "
+            "for a plain root-cause question. If the user is specifically asking about reprocessing or a "
+            "reprocess recommendation, use classify_account_compare_failures instead - don't call both."
         ),
         "input_schema": {
             "type": "object",
@@ -166,13 +184,41 @@ TOOL_DEFINITIONS: list[dict[str, Any]] = [
 
 
 def dispatch_tool(name: str, tool_input: dict[str, Any]) -> Any:
+    """
+    Wraps the pure lookup functions above with an explicit found/not-found
+    signal for the LLM-facing boundary, so "no such ECN" and "that ECN exists
+    but nothing mismatched" - two very different, easily-confused states -
+    never both collapse into the same silent empty list the model has to
+    guess the meaning of.
+    """
     if name == "list_customer_compare_mismatches":
-        result = list_customer_compare_mismatches(ecn=tool_input.get("ecn"))
+        ecn = tool_input.get("ecn")
+        if ecn and not ecn_exists(ecn):
+            return {"found": False, "message": f"No compare record found for ECN '{ecn}'."}
+
+        result = list_customer_compare_mismatches(ecn=ecn)
+        if ecn and not result:
+            return {
+                "found": True,
+                "message": f"ECN '{ecn}' was found, but every attribute matched between Hogan and Alfa - no mismatches.",
+                "mismatches": [],
+            }
+        return [item.model_dump() for item in result]
+
     elif name == "get_account_compare_root_cause":
-        result = get_account_compare_root_cause(
-            ecn=tool_input["ecn"], account_number=tool_input.get("account_number")
-        )
+        ecn = tool_input["ecn"]
+        account_number = tool_input.get("account_number")
+        if not ecn_exists(ecn):
+            return {"found": False, "message": f"No compare record found for ECN '{ecn}'."}
+
+        result = get_account_compare_root_cause(ecn=ecn, account_number=account_number)
+        if not result:
+            if account_number:
+                message = f"No ACCOUNT_COMPARE mismatch found for ECN '{ecn}' and account '{account_number}'."
+            else:
+                message = f"No ACCOUNT_COMPARE mismatches found for ECN '{ecn}'."
+            return {"found": False, "message": message}
+        return [item.model_dump() for item in result]
+
     else:
         raise ValueError(f"Unknown tool: {name}")
-
-    return [item.model_dump() for item in result]

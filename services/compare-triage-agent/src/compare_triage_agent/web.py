@@ -1,13 +1,20 @@
 """
 FastAPI chat UI for the compare-triage-agent - a thin HTTP wrapper around
 `agent.run_agent_turn`, so the web UI and the CLI share the exact same
-tool-calling loop.
+tool-calling dispatcher.
+
+Bring-your-own-token: the caller picks a provider (openai/google/anthropic)
+and may supply their own API key per request. That key is used only to build
+a client for that single request - it is never written to disk, logged, or
+kept in `_sessions`. If no key is supplied, `agent.resolve_api_key` falls
+back to the server's own .env for local-dev convenience.
 
 Conversation history is kept in-memory, keyed by a client-generated session
-id (see static/app.js). That's fine for a single-process local demo; a real
-deployment behind more than one worker or that needs to survive a restart
-would need a shared store instead (Redis, a DB row) - the seam is
-`_sessions`.
+id (see static/app.js), as a provider-neutral list of {role, content} turns -
+see providers.py's docstring for why that's what makes switching providers
+mid-session work. That in-memory store is fine for a single-process local
+demo; a real deployment behind more than one worker or that needs to survive
+a restart would need a shared store instead (Redis, a DB row).
 """
 
 from __future__ import annotations
@@ -19,32 +26,37 @@ from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
-from google import genai
-from google.genai import types
 from pydantic import BaseModel
 
-from compare_triage_agent.agent import run_agent_turn
+from compare_triage_agent.agent import MissingApiKeyError, resolve_api_key, run_agent_turn
+from compare_triage_agent.models import AccountDiagnostics
+from compare_triage_agent.router import PROVIDERS, Provider
 
 _PACKAGE_ROOT = Path(__file__).resolve().parents[2]  # services/compare-triage-agent
 load_dotenv(_PACKAGE_ROOT / ".env")
 
-app = FastAPI(title="compare-triage-agent")
+app = FastAPI(title="ALA Reconciliation Assistant")
 
 _STATIC_DIR = Path(__file__).resolve().parent / "static"
 app.mount("/static", StaticFiles(directory=_STATIC_DIR), name="static")
 
-_client = genai.Client()
-_sessions: dict[str, list[types.Content]] = {}
+_sessions: dict[str, list[dict]] = {}
 
 
 class ChatRequest(BaseModel):
     session_id: str | None = None
     message: str
+    provider: Provider = "google"
+    api_key: str | None = None
 
 
 class ChatResponse(BaseModel):
     session_id: str
     reply: str
+    model: str | None = None
+    tier: str | None = None
+    classification: list[AccountDiagnostics] | None = None
+    mongo_script: str | None = None
 
 
 class SessionRequest(BaseModel):
@@ -56,19 +68,34 @@ def index() -> FileResponse:
     return FileResponse(_STATIC_DIR / "index.html")
 
 
-@app.post("/api/chat", response_model=ChatResponse)
+@app.get("/api/providers")
+def providers() -> list[str]:
+    return list(PROVIDERS)
+
+
+@app.post("/api/chat", response_model=ChatResponse, response_model_by_alias=True)
 def chat(request: ChatRequest) -> ChatResponse:
     session_id = request.session_id or str(uuid.uuid4())
-    conversation = _sessions.setdefault(session_id, [])
+    history = _sessions.setdefault(session_id, [])
 
-    conversation.append(types.Content(role="user", parts=[types.Part.from_text(text=request.message)]))
     try:
-        reply = run_agent_turn(_client, conversation)
+        api_key = resolve_api_key(request.provider, request.api_key)
+        reply, model, tier, extras = run_agent_turn(request.provider, api_key, history, request.message)
+    except MissingApiKeyError as exc:
+        return ChatResponse(session_id=session_id, reply=str(exc))
     except Exception as exc:  # noqa: BLE001 - surfaced to the chat UI, not a 500 the user can't act on
-        conversation.pop()  # don't leave a dangling user turn the model never answered
-        reply = f"Something went wrong talking to the model: {exc}"
+        return ChatResponse(session_id=session_id, reply=f"Something went wrong talking to the model: {exc}")
 
-    return ChatResponse(session_id=session_id, reply=reply)
+    history.append({"role": "user", "content": request.message})
+    history.append({"role": "assistant", "content": reply})
+    return ChatResponse(
+        session_id=session_id,
+        reply=reply,
+        model=model,
+        tier=tier,
+        classification=extras.get("classification"),
+        mongo_script=extras.get("mongo_script"),
+    )
 
 
 @app.post("/api/reset", response_model=SessionRequest)

@@ -2,19 +2,23 @@
 
 from __future__ import annotations
 
-from google import genai
-from google.genai import types
+import os
+
 from dotenv import load_dotenv
 
-from compare_triage_agent.agent import run_agent_turn
+from compare_triage_agent.agent import resolve_api_key, run_agent_turn
+from compare_triage_agent.router import PROVIDERS
 
 
 def main() -> None:
     load_dotenv()
-    client = genai.Client()
-    conversation: list[types.Content] = []
+    provider = os.environ.get("COMPARE_AGENT_PROVIDER", "google")
+    if provider not in PROVIDERS:
+        raise SystemExit(f"COMPARE_AGENT_PROVIDER must be one of {PROVIDERS}, got {provider!r}")
+    api_key = resolve_api_key(provider, os.environ.get("COMPARE_AGENT_API_KEY"))
+    history: list[dict] = []
 
-    print("Customer sync triage agent. Ask about compare mismatches or ACCOUNT_COMPARE root cause. Ctrl+C to exit.\n")
+    print(f"ALA Reconciliation Assistant (provider: {provider}). Ctrl+C to exit.\n")
     while True:
         try:
             user_input = input("> ").strip()
@@ -24,15 +28,17 @@ def main() -> None:
         if not user_input:
             continue
 
-        conversation.append(types.Content(role="user", parts=[types.Part.from_text(text=user_input)]))
         try:
-            answer = run_agent_turn(client, conversation)
+            answer, model, tier, extras = run_agent_turn(provider, api_key, history, user_input)
         except Exception as exc:  # noqa: BLE001 - keep the REPL alive on a bad turn
             print(f"\n[error] {exc}\n")
-            conversation.pop()
             continue
 
-        print(f"\n{answer}\n")
+        history.append({"role": "user", "content": user_input})
+        history.append({"role": "assistant", "content": answer})
+        print(f"\n[{model} - {tier}] {answer}\n")
+        if extras.get("mongo_script"):
+            print(f"--- mongo script ---\n{extras['mongo_script']}\n--------------------\n")
 
 
 if __name__ == "__main__":

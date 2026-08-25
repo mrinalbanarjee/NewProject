@@ -15,6 +15,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.Configure<MongoOptions>(builder.Configuration.GetSection(MongoOptions.SectionName));
+builder.Services.Configure<LoanBoardingAppConfig>(builder.Configuration.GetSection(LoanBoardingAppConfig.SectionName));
+builder.Services.Configure<CustomerAppConfiguration>(builder.Configuration.GetSection(CustomerAppConfiguration.SectionName));
+builder.Services.Configure<AccountSummaryConfiguration>(builder.Configuration.GetSection(AccountSummaryConfiguration.SectionName));
 builder.Services.AddSingleton<MongoContext>();
 builder.Services.AddScoped<INotificationRepository, MongoNotificationRepository>();
 builder.Services.AddScoped<ICustomerEventRepository, MongoCustomerEventRepository>();

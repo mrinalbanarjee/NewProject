@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from compare_triage_agent.tools import get_account_compare_root_cause, list_customer_compare_mismatches
+from compare_triage_agent.tools import dispatch_tool, get_account_compare_root_cause, list_customer_compare_mismatches
 
 
 def test_list_mismatches_scoped_to_one_ecn_returns_only_mismatched_attributes():
@@ -48,6 +48,7 @@ def test_account_root_cause_includes_primary_boarding_status():
     assert "Duplicate" in primary.summary
     assert "OXCA" not in primary.summary.upper().replace(" ", "")
     assert primary.event_time == "2026-08-04T15:03:13.294Z"
+    assert primary.correlation_id == "44792fe1-4f9d-4693-b0e8-0e02f144d09e"
 
 
 def test_account_root_cause_boarding_summary_reflects_success():
@@ -101,3 +102,65 @@ def test_account_root_cause_ignores_non_account_compare_mismatches():
 
     assert len(results) == 1
     assert results[0].account_number == "7894756224"
+
+
+# -- dispatch_tool: found/not-found signalling at the LLM-facing boundary --
+
+
+def test_dispatch_list_mismatches_unknown_ecn_reports_not_found():
+    result = dispatch_tool("list_customer_compare_mismatches", {"ecn": "0000000000000"})
+
+    assert result == {"found": False, "message": "No compare record found for ECN '0000000000000'."}
+
+
+def test_dispatch_list_mismatches_known_ecn_with_zero_mismatches_is_distinct_from_not_found():
+    # ecn 5756865116697 exists and every attribute matched - this must NOT look
+    # like the unknown-ECN case above, even though both start from an "empty" result.
+    result = dispatch_tool("list_customer_compare_mismatches", {"ecn": "5756865116697"})
+
+    assert result["found"] is True
+    assert result["mismatches"] == []
+    assert "5756865116697" in result["message"]
+
+
+def test_dispatch_list_mismatches_known_ecn_with_mismatches_returns_plain_list():
+    result = dispatch_tool("list_customer_compare_mismatches", {"ecn": "6022768040250"})
+
+    assert isinstance(result, list)
+    assert len(result) == 1
+    assert result[0]["ecn"] == "6022768040250"
+
+
+def test_dispatch_root_cause_unknown_ecn_reports_not_found():
+    result = dispatch_tool("get_account_compare_root_cause", {"ecn": "0000000000000"})
+
+    assert result == {"found": False, "message": "No compare record found for ECN '0000000000000'."}
+
+
+def test_dispatch_root_cause_known_ecn_but_unmatched_account_reports_not_found():
+    # ecn 0444769043821 exists and has ACCOUNT_COMPARE mismatches, but not for this account number.
+    result = dispatch_tool(
+        "get_account_compare_root_cause", {"ecn": "0444769043821", "account_number": "9999999999"}
+    )
+
+    assert result == {
+        "found": False,
+        "message": "No ACCOUNT_COMPARE mismatch found for ECN '0444769043821' and account '9999999999'.",
+    }
+
+
+def test_dispatch_root_cause_known_ecn_with_no_account_compare_mismatches_reports_not_found():
+    # ecn 5756865116697 exists but has no mismatches of any kind, let alone ACCOUNT_COMPARE.
+    result = dispatch_tool("get_account_compare_root_cause", {"ecn": "5756865116697"})
+
+    assert result == {
+        "found": False,
+        "message": "No ACCOUNT_COMPARE mismatches found for ECN '5756865116697'.",
+    }
+
+
+def test_dispatch_root_cause_known_ecn_with_match_returns_plain_list():
+    result = dispatch_tool("get_account_compare_root_cause", {"ecn": "0444769043821"})
+
+    assert isinstance(result, list)
+    assert {r["account_number"] for r in result} == {"0580084955", "9906505513"}

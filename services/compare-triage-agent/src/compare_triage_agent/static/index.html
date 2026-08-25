@@ -3,26 +3,43 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Customer Sync Triage Assistant</title>
+  <title>ALA Reconciliation Assistant</title>
   <link rel="stylesheet" href="/static/style.css" />
 </head>
 <body>
   <div class="app">
     <header class="app-header">
       <div>
-        <h1>Customer Sync Triage Assistant</h1>
-        <p class="subtitle">Ask about Hogan/Alfa compare mismatches or ACCOUNT_COMPARE root cause.</p>
+        <h1>ALA Reconciliation Assistant</h1>
+        <p class="subtitle">Customer-sync reconciliation, or Feature Management for app config.</p>
       </div>
       <button id="reset-btn" class="ghost-btn" type="button">New conversation</button>
     </header>
 
+    <div class="settings-bar">
+      <label class="settings-field">
+        <span>Provider</span>
+        <select id="provider-select">
+          <option value="google">Google (Gemini)</option>
+          <option value="openai">OpenAI</option>
+          <option value="anthropic">Anthropic</option>
+        </select>
+      </label>
+      <label class="settings-field settings-field-key">
+        <span>API key <span class="settings-hint">(stored only in this browser)</span></span>
+        <input id="api-key-input" type="password" placeholder="Leave blank to use the server's default key, if configured" autocomplete="off" />
+      </label>
+    </div>
+
     <main id="messages" class="messages" aria-live="polite">
       <div class="message assistant">
         <div class="bubble">
-          Hi! I can help you investigate Hogan/Alfa customer-sync issues. Try asking:
-          <ul>
-            <li>"List everything that doesn't match between Hogan and Alfa."</li>
-          </ul>
+          Hi! I can help with Reconciliation, or Feature Management for ALA applications.
+          What would you like to do?
+          <div class="menu-options">
+            <button class="ghost-btn menu-btn" type="button" data-action="reconciliation">Reconciliation</button>
+            <button class="ghost-btn menu-btn" type="button" data-action="feature-management">Feature Management</button>
+          </div>
         </div>
       </div>
     </main>
